@@ -1514,3 +1514,596 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.24-16.45.21:020][ 66]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-Jp6iDQKB4k6uk1FtxxJ6Tg-Ahmqp-Qoyky8_iToyPZ9WQ]
 [2025.01.24-16.45.48:922][589]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 35270.12 ms.
 [2025.01.24-16.46.06:259][620]LogPSOHitching: Encountered 150 PSO creation hitches so far (52 graphics, 98 compute). 0 of them were precached.
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: ================================================
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Total job queries 11.630, among them cache hits 11 (0.09%), DDC hits 0 (0.00%), Duplicates 2.677 (23.02%)
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Tracking 8.942 distinct input hashes that result in 8.459 distinct outputs (94.60%)
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: RAM used: 6,35 MiB of 1,60 GiB budget. Usage: 0.39%
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Shaders Compiled: 8.942
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Jobs assigned 8.942, completed 8.942 (100%)
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Average time worker was idle: 0.20 s
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Time job spent in pending queue: average 193.52 s, longest 399.12 s
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Job execution time: average 5.43 s, max 79.03 s
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Job life time (pending + execution): average 198.95 s, max 399.66
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Shader code size: average 14,304 KiB, min 1,16 KiB, max 330,049 KiB
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 427.85 s
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  1.04%
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Jobs were issued in 991 batches (only local compilation was used), average 9.02 jobs/batch
+[2025.01.24-16.48.18:653][926]LogShaderCompilers: Display: Average processing rate: 20.90 jobs/sec
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Total thread time: 4.944,403 s
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Total thread preprocess time: 145,265 s
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Percentage time preprocessing: 2.94%
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Effective parallelization: 11.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.07 sec, max 76.45 sec, min 1.15 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.44 sec, max 15.44 sec, min 15.44 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.74 sec, max 10.49 sec, min 5.52 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.83 sec, max 7.35 sec, min 1.41 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.93 sec, max 6.50 sec, min 1.59 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.43% of total time (compiled  454 times, average 1.46 sec, max 2.31 sec, min 1.03 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.05% of total time (compiled   27 times, average 22.07 sec, max 76.45 sec, min 1.15 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.96% of total time (compiled  260 times, average 2.08 sec, max 5.18 sec, min 0.00 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.02% of total time (compiled  480 times, average 0.52 sec, max 1.89 sec, min 0.24 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.08% of total time (compiled   72 times, average 2.80 sec, max 4.07 sec, min 1.97 sec)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: === Material stats ===
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Materials Translated:    134
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Material Translation Only: 0.05 s (50%)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.24-16.48.18:654][926]LogShaderCompilers: Display: ================================================
+[2025.01.24-16.50.40:005][350]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 328.740723
+[2025.01.24-16.50.41:005][353]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.24-16.50.41:006][353]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 329.407959, Update Interval: 349.570007
+[2025.01.24-16.52.10:855][766]LogDebuggerCommands: Repeating last play command: Ausgewählter Viewport
+[2025.01.24-16.52.10:863][766]LogContentBundle: [TopDownMap(Eigenständig)] Generating Streaming for 0 Content Bundles.
+[2025.01.24-16.52.10:863][766]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' started...
+[2025.01.24-16.52.10:868][766]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap' took 5.779 ms
+[2025.01.24-16.52.10:872][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.24-16.52.10:876][766]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2025.01.24-16.52.10:880][766]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.01.24-16.52.10:925][767]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.01.24-16.52.10:935][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008908s)
+[2025.01.24-16.52.10:935][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.008992s)
+[2025.01.24-16.52.10:988][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.01.24-16.52.10:989][767]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.01.24-16.52.10:993][767]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.24-16.52.10:993][767]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.52.10:993][767]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.52.10:993][767]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.24-16.52.10:995][767]LogWorldPartition: Display: WorldPartition initialize took 2.609 ms (total: 57.324 ms)
+[2025.01.24-16.52.10:995][767]LogPlayLevel: PIE: World Init took: (0.006519s)
+[2025.01.24-16.52.10:996][767]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.01.24-16.52.10:996][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.24-16.52.10:997][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.24-16.52.10:997][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.24-16.52.10:997][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.24-16.52.10:997][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.24-16.52.10:997][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.24-16.52.11:000][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.24-16.52.11:027][767]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (High Definition Audio Device)
+[2025.01.24-16.52.11:027][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.24-16.52.11:028][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.24-16.52.11:028][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.24-16.52.11:028][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.01.24-16.52.11:028][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.01.24-16.52.11:030][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.01.24-16.52.11:031][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.01.24-16.52.11:031][767]LogInit: FAudioDevice initialized with ID 2.
+[2025.01.24-16.52.11:031][767]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownMap'.
+[2025.01.24-16.52.11:031][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.24-16.52.11:036][767]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.01.24-16.52.11:040][767]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2025.01.24-17.52.11
+[2025.01.24-16.52.11:040][767]LogWorld: Bringing up level for play took: 0.003175
+[2025.01.24-16.52.11:099][767]PIE: Server eingeloggt in
+[2025.01.24-16.52.11:100][767]PIE: Wiedergabe im Editor Gesamtstartzeit 0,239 Sekunden.
+[2025.01.24-16.53.52:837][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.24-16.53.52:837][460]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2025.01.24-16.53.52:838][460]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.53.52:839][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.53.52:839][460]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap
+[2025.01.24-16.53.52:843][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.24-16.53.52:849][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.53.52:863][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.24-16.53.52:864][460]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.24-16.53.52:864][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.24-16.53.52:867][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.24-16.53.52:878][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.01.24-16.53.52:952][461]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: ================================================
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Total job queries 11.650, among them cache hits 14 (0.12%), DDC hits 0 (0.00%), Duplicates 2.677 (22.98%)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Tracking 8.959 distinct input hashes that result in 8.472 distinct outputs (94.56%)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: RAM used: 6,35 MiB of 1,60 GiB budget. Usage: 0.39%
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Shaders Compiled: 8.959
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Jobs assigned 8.959, completed 8.959 (100%)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Average time worker was idle: 4.85 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Time job spent in pending queue: average 193.16 s, longest 399.12 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Job execution time: average 5.42 s, max 79.03 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Job life time (pending + execution): average 198.58 s, max 399.66
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Shader code size: average 14,291 KiB, min 1,16 KiB, max 330,049 KiB
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 431.04 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  1.04%
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Jobs were issued in 1.008 batches (only local compilation was used), average 8.89 jobs/batch
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Average processing rate: 20.78 jobs/sec
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Total thread time: 4.962,394 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Total thread preprocess time: 145,6 s
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Percentage time preprocessing: 2.93%
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Effective parallelization: 11.51 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 22.07 sec, max 76.45 sec, min 1.15 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.44 sec, max 15.44 sec, min 15.44 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.74 sec, max 10.49 sec, min 5.52 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.83 sec, max 7.35 sec, min 1.41 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.93 sec, max 6.50 sec, min 1.59 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.38% of total time (compiled  454 times, average 1.46 sec, max 2.31 sec, min 1.03 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.01% of total time (compiled   27 times, average 22.07 sec, max 76.45 sec, min 1.15 sec)
+[2025.01.24-16.54.18:915][123]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.92% of total time (compiled  260 times, average 2.08 sec, max 5.18 sec, min 0.00 sec)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.01% of total time (compiled  480 times, average 0.52 sec, max 1.89 sec, min 0.24 sec)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.06% of total time (compiled   72 times, average 2.80 sec, max 4.07 sec, min 1.97 sec)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: === Material stats ===
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Materials Translated:    134
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Material Translation Only: 0.05 s (50%)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.24-16.54.18:916][123]LogShaderCompilers: Display: ================================================
+[2025.01.24-16.55.42:697][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.24-16.55.42:723][237]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.24-16.55.42:724][237]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.55.42:724][237]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.55.42:724][237]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.55.42:725][237]LogWorldPartition: Display: WorldPartition initialize took 469 us (total: 57.794 ms)
+[2025.01.24-16.55.45:823][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.24-16.55.49:763][566]LogSlate: Window 'Inhalt speichern' being destroyed
+[2025.01.24-16.55.49:779][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.24-16.55.49:821][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/TopDownMap1" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.24-16.55.49:837][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.01.24-16.55.49:850][566]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TopDownMap1
+[2025.01.24-16.55.49:850][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TopDownMap11FE1B19345AF32AFFCFB6CB34853BF7E.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap'
+[2025.01.24-16.55.49:861][566]Message dialog closed, result: Ok, title: Auschecken aus Revisionskontrolle nicht möglich!, text: Die folgenden Assets konnten nicht erfolgreich aus der Revisionskontrolle ausgecheckt werden:
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS
+[2025.01.24-16.55.49:861][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.24-16.55.49:863][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT
+[2025.01.24-16.55.49:863][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TESQ3JB6AFA67UNUUF75CTDFA946B9471F0AFD37FF0C842F0D042B.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT.uasset'
+[2025.01.24-16.55.49:866][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T
+[2025.01.24-16.55.49:866][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GHG0QQUW7I5SIBI7BN4A1TBA10CA7647FB639CD24FD4A9237E9B41.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T.uasset'
+[2025.01.24-16.55.49:868][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL
+[2025.01.24-16.55.49:868][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VAH8MW0VVVT9BSAWYQ8GPLC4FCCEDB4B49243F5E65658B7551277B.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL.uasset'
+[2025.01.24-16.55.49:870][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O
+[2025.01.24-16.55.49:870][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AY7FSB72PU0FWXUDGIWQ7O392AA26C40B041A7AB829ABEE59B8327.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O.uasset'
+[2025.01.24-16.55.49:874][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC
+[2025.01.24-16.55.49:874][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/ZHGZSHPACHJ5TOZ8AOBGTCF164C5234E63896FA62229A6F1C2985E.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC.uasset'
+[2025.01.24-16.55.49:877][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND
+[2025.01.24-16.55.49:877][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/YPEYG2NRRGL887D5RXDYND8B341F6043715170A1B09B9C0AED2ABB.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND.uasset'
+[2025.01.24-16.55.49:879][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A
+[2025.01.24-16.55.49:879][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JKN1M4GSV4NHG3DEGUOL2A64105AB3411CD1DD86A763AA4B2E412E.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A.uasset'
+[2025.01.24-16.55.49:882][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ
+[2025.01.24-16.55.49:882][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/H6XCB7VWNE56YYM7HTWHBJ1717E8AE4E69B6479F3B6AB458D475BA.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ.uasset'
+[2025.01.24-16.55.49:883][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719
+[2025.01.24-16.55.49:883][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VHTOPOHXTEQ6S17ZY257190B417C5644C0D589BC10EBB7F53D9971.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719.uasset'
+[2025.01.24-16.55.49:885][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC
+[2025.01.24-16.55.49:885][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/7VXIBAQP7MK6ZE93OG0XGC5945FFC9498CE26342EC47BEE57F1652.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC.uasset'
+[2025.01.24-16.55.49:888][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB
+[2025.01.24-16.55.49:888][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Z7R4LTDX8N37ZPSITJE0AB4808474D4FC8C6C108700297ADEED57C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB.uasset'
+[2025.01.24-16.55.49:890][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO
+[2025.01.24-16.55.49:890][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VMZGG6AE7VB2WL7WAMK6NO3663F2D24CD37F50918ED79F70D0C717.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO.uasset'
+[2025.01.24-16.55.49:893][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ
+[2025.01.24-16.55.49:893][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6V9QSVF0VGBXJIW02USVQQ98008D8C4EE9D758294AC9AA8A853F0C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ.uasset'
+[2025.01.24-16.55.49:895][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF
+[2025.01.24-16.55.49:895][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/8FNBO1X3ADFFF8I3EV1XNFEA472B0A4CA6DD481A59B9A58FA296AC.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF.uasset'
+[2025.01.24-16.55.49:897][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL
+[2025.01.24-16.55.49:897][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GDPD42D7ULI8NYNYP0QMPL347953BF472D9550A505DAB2A21C2602.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL.uasset'
+[2025.01.24-16.55.49:899][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT
+[2025.01.24-16.55.49:899][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/KEEHEPQGUSK2F95C3KEGWT68E061FC48880A2FE27D35B26CC0E31B.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT.uasset'
+[2025.01.24-16.55.49:900][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07
+[2025.01.24-16.55.49:900][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/US1HSY7RM39H4SWGWJJM073A0F2F9245C6C11A9673639885BBD15C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07.uasset'
+[2025.01.24-16.55.49:903][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV
+[2025.01.24-16.55.49:903][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/SQ1KRFVGJ9JULNBTPOOQKV1D425B344B1B0B27A9720FB2EC8C04C8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV.uasset'
+[2025.01.24-16.55.49:904][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD
+[2025.01.24-16.55.49:904][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/2718R0S1BVV3XAGGJ659PDF7C19BE5413D79E2FEFC3A98D49E110D.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD.uasset'
+[2025.01.24-16.55.49:907][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB
+[2025.01.24-16.55.49:907][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/O2ICXMXHVZ30JFRXCOQAVBBF7DFE49452890B162FEBD9CCD1EFB50.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB.uasset'
+[2025.01.24-16.55.49:909][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ
+[2025.01.24-16.55.49:909][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/XGRFUZPMW9CHRH6O3L1XFZC1BCFADD410B306300559BA656DB8424.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ.uasset'
+[2025.01.24-16.55.49:911][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19
+[2025.01.24-16.55.49:911][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6YGIKTJL2YRSVWR67P4I19CF3953EA4091D99B8218828AD36FB466.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19.uasset'
+[2025.01.24-16.55.49:914][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV
+[2025.01.24-16.55.49:914][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JTVU3X9RJ9BG9QEQUPF2NV1FA34A66481926B07E82A39FBE5934E2.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV.uasset'
+[2025.01.24-16.55.49:916][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP
+[2025.01.24-16.55.49:916][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/LV47ASHJCHZ9K5VVHTR0KP4D080F4840F508B39F227BADC202A673.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP.uasset'
+[2025.01.24-16.55.49:919][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1
+[2025.01.24-16.55.49:919][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/W8ZRV7XAE7PUXROXBDBNI1A6D574CD435E21723C1A45B2266080EE.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1.uasset'
+[2025.01.24-16.55.49:921][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O
+[2025.01.24-16.55.49:921][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/DSQOHVH4I92HH4PQAQRB4O4DC40FBE4956BDDB2A5751AE063268D0.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O.uasset'
+[2025.01.24-16.55.49:923][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3
+[2025.01.24-16.55.49:923][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GEYBRST2P67IAUQNZCENA3AA53D192409391A6D89B08985DDC8607.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3.uasset'
+[2025.01.24-16.55.49:924][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X
+[2025.01.24-16.55.49:925][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/3YG44AOBI9QPS9TM4BRF5XB51D2074497935016A107EB9847B6601.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X.uasset'
+[2025.01.24-16.55.49:927][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU
+[2025.01.24-16.55.49:927][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6VI7AT6LG7D4YGPF82J3OUDAFA714A47DD8571A4E64AAC4B88C1EF.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU.uasset'
+[2025.01.24-16.55.49:929][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH
+[2025.01.24-16.55.49:929][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/R46LYCCT31MBTK2ZGJWAXH30FDCBD24E5DE0BF1D60CBAB34E43791.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH.uasset'
+[2025.01.24-16.55.49:931][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU
+[2025.01.24-16.55.49:931][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JXFY9XEW9A96KWW459EUQU2AFAEA2A49BA94649C8E97AADBDE27A6.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU.uasset'
+[2025.01.24-16.55.49:933][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY
+[2025.01.24-16.55.49:933][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PQPZ5B6HNCBHX2VCPSTXTY6C69A57D488B86F2026D3A92C7B6D12C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY.uasset'
+[2025.01.24-16.55.49:935][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18
+[2025.01.24-16.55.49:935][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BD8L0A3XPCEQ5NP7AI9E18E8F258214181E70F16E8EBAB6BC079E7.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18.uasset'
+[2025.01.24-16.55.49:938][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX
+[2025.01.24-16.55.49:938][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AEJH9PLWOYLN6O0BDEIOXX8D31F3F04F5BFC8F9BD36F80107C1D27.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX.uasset'
+[2025.01.24-16.55.49:940][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9
+[2025.01.24-16.55.49:940][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/RVWED92OGNJYD7GNFC4FN9C0C988EA44879FEB2E60128DEB3BACF5.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9.uasset'
+[2025.01.24-16.55.49:943][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ
+[2025.01.24-16.55.49:943][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/1FHC3ZODXKI382FLH7MGKJ9B3DD3B948C23944D09C4999B88FF3E8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ.uasset'
+[2025.01.24-16.55.49:945][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT
+[2025.01.24-16.55.49:945][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/5CJYIAA8C3BW5Z1E92CPQTB83DC1954497343830FDE7A5DE03F4F8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT.uasset'
+[2025.01.24-16.55.49:947][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV
+[2025.01.24-16.55.49:947][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/O069W7O94VOANBT7B0B7OVC3A113444E162248B8089E94AA32F472.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV.uasset'
+[2025.01.24-16.55.49:948][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE
+[2025.01.24-16.55.49:948][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/UGFONL5LR5BEFOOUQD46CE8210A33D4AFE9CD0D4A1B48C5EB1E139.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE.uasset'
+[2025.01.24-16.55.49:950][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME
+[2025.01.24-16.55.49:951][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Z2S63IFK2RP7GUSCRD11MECAF6AB4D46912AD4B5C365BC0BC9A415.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME.uasset'
+[2025.01.24-16.55.49:953][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ
+[2025.01.24-16.55.49:953][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AJZT4SAVS1X5A2CKNFPBSZ25E5F8184E165DFD98076D84ABCC33B8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ.uasset'
+[2025.01.24-16.55.49:953][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX] ([1] browsable assets)...
+[2025.01.24-16.55.49:953][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX]
+[2025.01.24-16.55.49:954][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX
+[2025.01.24-16.55.49:954][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/9D970ZRMWFZD2X8AQNGKTX27C8D8EA4D56BF631B4B94809C91320A.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX.uasset'
+[2025.01.24-16.55.49:956][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL] ([1] browsable assets)...
+[2025.01.24-16.55.49:956][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL]
+[2025.01.24-16.55.49:956][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL
+[2025.01.24-16.55.49:956][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/559QWQFKU0LVOGQQ1EMDJL3D8F9D014D11733F235F5DA35FDD4455.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL.uasset'
+[2025.01.24-16.55.49:958][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92] ([1] browsable assets)...
+[2025.01.24-16.55.49:958][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92]
+[2025.01.24-16.55.49:959][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92
+[2025.01.24-16.55.49:959][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PYLGOOYW2QPRJ6WJXJMN920E4DF00A4C7803963C85A59796FFB850.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92.uasset'
+[2025.01.24-16.55.49:960][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749] ([1] browsable assets)...
+[2025.01.24-16.55.49:960][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749]
+[2025.01.24-16.55.49:960][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749
+[2025.01.24-16.55.49:960][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PHCLKRIY71VRK1GGSJ07495C662F724787539AA87C82BE5DA214C1.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749.uasset'
+[2025.01.24-16.55.49:961][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS] ([1] browsable assets)...
+[2025.01.24-16.55.49:961][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS]
+[2025.01.24-16.55.49:961][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS
+[2025.01.24-16.55.49:961][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/RQV27INYB9823Y1PMYC6XS66886BE343982D1CD2B4F48D17F07968.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS.uasset'
+[2025.01.24-16.55.49:964][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.819 ms
+[2025.01.24-16.55.49:965][566]Message dialog closed, result: Ok, title: Auschecken aus Revisionskontrolle nicht möglich!, text: Die folgenden Assets konnten nicht erfolgreich aus der Revisionskontrolle ausgecheckt werden:
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME
+/Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749
+/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS
+[2025.01.24-16.55.49:973][566]LogFileHelpers: Saving map 'TopDownMap1' took 0.154
+[2025.01.24-16.55.49:973][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749] ([1] browsable assets)...
+[2025.01.24-16.55.49:973][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749]
+[2025.01.24-16.55.49:973][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749
+[2025.01.24-16.55.49:974][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PHCLKRIY71VRK1GGSJ0749849DA21F4BF306F19086E89999A167D6.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/C/7Y/PHCLKRIY71VRK1GGSJ0749.uasset'
+[2025.01.24-16.55.49:976][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX
+[2025.01.24-16.55.49:977][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AEJH9PLWOYLN6O0BDEIOXX3F923F7A4F7963C99E7D3B9DE42898F5.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/LC/AEJH9PLWOYLN6O0BDEIOXX.uasset'
+[2025.01.24-16.55.49:978][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT
+[2025.01.24-16.55.49:979][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/KEEHEPQGUSK2F95C3KEGWTA967059E4600B17621E56BA77898CF12.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/BY/KEEHEPQGUSK2F95C3KEGWT.uasset'
+[2025.01.24-16.55.49:979][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS] ([1] browsable assets)...
+[2025.01.24-16.55.49:979][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS]
+[2025.01.24-16.55.49:980][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS
+[2025.01.24-16.55.49:980][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/RQV27INYB9823Y1PMYC6XS4B9CAC8741AA777AECCD22AF2811268F.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/8/LQ/RQV27INYB9823Y1PMYC6XS.uasset'
+[2025.01.24-16.55.49:981][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92] ([1] browsable assets)...
+[2025.01.24-16.55.49:981][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92]
+[2025.01.24-16.55.49:982][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92
+[2025.01.24-16.55.49:982][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PYLGOOYW2QPRJ6WJXJMN925DDB59914CEF71C197C2199DFB88B8A1.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/B/5O/PYLGOOYW2QPRJ6WJXJMN92.uasset'
+[2025.01.24-16.55.49:984][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF
+[2025.01.24-16.55.49:984][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/8FNBO1X3ADFFF8I3EV1XNFF12B48DD4876B163194310945649FA00.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/XK/8FNBO1X3ADFFF8I3EV1XNF.uasset'
+[2025.01.24-16.55.49:986][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC
+[2025.01.24-16.55.49:987][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/ZHGZSHPACHJ5TOZ8AOBGTC25365F5346B81BC7576A8EB2A95EECD7.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/4I/ZHGZSHPACHJ5TOZ8AOBGTC.uasset'
+[2025.01.24-16.55.49:988][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL] ([1] browsable assets)...
+[2025.01.24-16.55.49:988][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL]
+[2025.01.24-16.55.49:988][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL
+[2025.01.24-16.55.49:989][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/559QWQFKU0LVOGQQ1EMDJL353AEF7C498D17256ADD6EA5D4847154.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/5/UL/559QWQFKU0LVOGQQ1EMDJL.uasset'
+[2025.01.24-16.55.49:990][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ
+[2025.01.24-16.55.49:991][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/XGRFUZPMW9CHRH6O3L1XFZ086BC73D4F13A096E1EE35AFB180B155.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ.uasset'
+[2025.01.24-16.55.49:991][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX] ([1] browsable assets)...
+[2025.01.24-16.55.49:991][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX]
+[2025.01.24-16.55.49:993][566]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX
+[2025.01.24-16.55.49:993][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/9D970ZRMWFZD2X8AQNGKTX5DCDB40A4A48655F78D3E5BD88034400.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalObjects__/TopDown/Maps/TopDownMap1/D/9K/9D970ZRMWFZD2X8AQNGKTX.uasset'
+[2025.01.24-16.55.49:996][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19
+[2025.01.24-16.55.49:996][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6YGIKTJL2YRSVWR67P4I196CC9C2BF469A8DA91F3939BCB614E48C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/LS/6YGIKTJL2YRSVWR67P4I19.uasset'
+[2025.01.24-16.55.49:998][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL
+[2025.01.24-16.55.49:999][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GDPD42D7ULI8NYNYP0QMPL7AABFE46482E5F668E07E087A4996DFE.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/PR/GDPD42D7ULI8NYNYP0QMPL.uasset'
+[2025.01.24-16.55.50:001][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ
+[2025.01.24-16.55.50:001][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AJZT4SAVS1X5A2CKNFPBSZ9379B2D7401DCEC23DD1A0AC97CCFE57.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/OM/AJZT4SAVS1X5A2CKNFPBSZ.uasset'
+[2025.01.24-16.55.50:003][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719
+[2025.01.24-16.55.50:003][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VHTOPOHXTEQ6S17ZY25719D414BF94420FB6BC2D7AADAA2A83FD59.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/HL/VHTOPOHXTEQ6S17ZY25719.uasset'
+[2025.01.24-16.55.50:005][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3
+[2025.01.24-16.55.50:005][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GEYBRST2P67IAUQNZCENA312885BF64315CB0E5898D0B37766A6AB.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/D/PT/GEYBRST2P67IAUQNZCENA3.uasset'
+[2025.01.24-16.55.50:007][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU
+[2025.01.24-16.55.50:007][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6VI7AT6LG7D4YGPF82J3OU07FFA7494C2C08EC30E7559C989544D0.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/MF/6VI7AT6LG7D4YGPF82J3OU.uasset'
+[2025.01.24-16.55.50:009][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1
+[2025.01.24-16.55.50:009][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/W8ZRV7XAE7PUXROXBDBNI11D7A4F764EA9A9BDD7F6D8A36968EA7C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/0/SN/W8ZRV7XAE7PUXROXBDBNI1.uasset'
+[2025.01.24-16.55.50:011][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC
+[2025.01.24-16.55.50:011][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/7VXIBAQP7MK6ZE93OG0XGCD53544D04F9B59DEFE34879ECB52A106.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/Z4/7VXIBAQP7MK6ZE93OG0XGC.uasset'
+[2025.01.24-16.55.50:013][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A
+[2025.01.24-16.55.50:013][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JKN1M4GSV4NHG3DEGUOL2AAC7E65624BBCBA8F9AF21382D587E084.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/3/IK/JKN1M4GSV4NHG3DEGUOL2A.uasset'
+[2025.01.24-16.55.50:015][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND
+[2025.01.24-16.55.50:015][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/YPEYG2NRRGL887D5RXDYND09ADCD7E4859B502F90F58BF245ADA16.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/1/HQ/YPEYG2NRRGL887D5RXDYND.uasset'
+[2025.01.24-16.55.50:020][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ
+[2025.01.24-16.55.50:020][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/1FHC3ZODXKI382FLH7MGKJA6445CA64119FDB66FC6C28DAFD1263E.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/SI/1FHC3ZODXKI382FLH7MGKJ.uasset'
+[2025.01.24-16.55.50:022][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB
+[2025.01.24-16.55.50:022][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/O2ICXMXHVZ30JFRXCOQAVB1AF0EB6D4A7E80184D8A69958CE43DD9.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/FH/O2ICXMXHVZ30JFRXCOQAVB.uasset'
+[2025.01.24-16.55.50:024][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV
+[2025.01.24-16.55.50:025][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JTVU3X9RJ9BG9QEQUPF2NV30848A514E0D05837602AD834A06DCAB.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/5H/JTVU3X9RJ9BG9QEQUPF2NV.uasset'
+[2025.01.24-16.55.50:026][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O
+[2025.01.24-16.55.50:027][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/AY7FSB72PU0FWXUDGIWQ7O153F6804469339763705FFB141EFEF02.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/C0/AY7FSB72PU0FWXUDGIWQ7O.uasset'
+[2025.01.24-16.55.50:028][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME
+[2025.01.24-16.55.50:029][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Z2S63IFK2RP7GUSCRD11MEE3854D0D4A855B5B37180EBF4A7A84B8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/MV/Z2S63IFK2RP7GUSCRD11ME.uasset'
+[2025.01.24-16.55.50:030][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV
+[2025.01.24-16.55.50:030][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/SQ1KRFVGJ9JULNBTPOOQKV1107C7554563707D8A4125B06EDD1293.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/VI/SQ1KRFVGJ9JULNBTPOOQKV.uasset'
+[2025.01.24-16.55.50:033][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY
+[2025.01.24-16.55.50:033][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/PQPZ5B6HNCBHX2VCPSTXTY4BDF06C147FB943C76DD3EAF4EF2A803.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/0Q/PQPZ5B6HNCBHX2VCPSTXTY.uasset'
+[2025.01.24-16.55.50:034][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV
+[2025.01.24-16.55.50:035][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/O069W7O94VOANBT7B0B7OVDC8D447947591B5295AB378205D6AA83.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/3/YP/O069W7O94VOANBT7B0B7OV.uasset'
+[2025.01.24-16.55.50:036][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL
+[2025.01.24-16.55.50:037][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VAH8MW0VVVT9BSAWYQ8GPLF0E19BDC4EED1AFB074C5B877A1F3A87.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/LB/VAH8MW0VVVT9BSAWYQ8GPL.uasset'
+[2025.01.24-16.55.50:038][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB
+[2025.01.24-16.55.50:039][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Z7R4LTDX8N37ZPSITJE0ABD581D796478922D3F2F2519E0AD867C2.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/48/Z7R4LTDX8N37ZPSITJE0AB.uasset'
+[2025.01.24-16.55.50:040][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O
+[2025.01.24-16.55.50:040][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/DSQOHVH4I92HH4PQAQRB4OB26580C34B1174E20D376E89C4BD2522.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/6U/DSQOHVH4I92HH4PQAQRB4O.uasset'
+[2025.01.24-16.55.50:042][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT
+[2025.01.24-16.55.50:042][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/5CJYIAA8C3BW5Z1E92CPQT1FDFA777422F0341C2D53B946A45857D.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/6B/5CJYIAA8C3BW5Z1E92CPQT.uasset'
+[2025.01.24-16.55.50:044][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18
+[2025.01.24-16.55.50:044][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BD8L0A3XPCEQ5NP7AI9E18CBD850CF47C1749CA3C51E83793AA70D.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/9/3O/BD8L0A3XPCEQ5NP7AI9E18.uasset'
+[2025.01.24-16.55.50:046][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ
+[2025.01.24-16.55.50:046][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/H6XCB7VWNE56YYM7HTWHBJ204CD4714014CC2F701071A1ACB7FCF1.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/2/A2/H6XCB7VWNE56YYM7HTWHBJ.uasset'
+[2025.01.24-16.55.50:048][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP
+[2025.01.24-16.55.50:048][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/LV47ASHJCHZ9K5VVHTR0KP73A930C04533E36922A71F88F6BDC73A.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/0/8V/LV47ASHJCHZ9K5VVHTR0KP.uasset'
+[2025.01.24-16.55.50:049][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ
+[2025.01.24-16.55.50:050][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/6V9QSVF0VGBXJIW02USVQQE36A7EBE43E55C1D786966A4F06FBF55.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/L9/6V9QSVF0VGBXJIW02USVQQ.uasset'
+[2025.01.24-16.55.50:051][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH
+[2025.01.24-16.55.50:051][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/R46LYCCT31MBTK2ZGJWAXHD30ED35F402DE245CF4546A609CF6E81.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/B/GG/R46LYCCT31MBTK2ZGJWAXH.uasset'
+[2025.01.24-16.55.50:054][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD
+[2025.01.24-16.55.50:054][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/2718R0S1BVV3XAGGJ659PD4BE0906E49173B6EB77B12BDCB8A89A0.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/SS/2718R0S1BVV3XAGGJ659PD.uasset'
+[2025.01.24-16.55.50:056][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO
+[2025.01.24-16.55.50:056][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/VMZGG6AE7VB2WL7WAMK6NO674F5EED4C6857C0F098069FE986A46A.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/B/A4/VMZGG6AE7VB2WL7WAMK6NO.uasset'
+[2025.01.24-16.55.50:058][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T
+[2025.01.24-16.55.50:058][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/GHG0QQUW7I5SIBI7BN4A1T18945F8243839519CFF82283DF4748FD.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/6/CY/GHG0QQUW7I5SIBI7BN4A1T.uasset'
+[2025.01.24-16.55.50:060][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9
+[2025.01.24-16.55.50:060][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/RVWED92OGNJYD7GNFC4FN92D522D2C4B993380F4C9EB8E82A6BC03.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/82/RVWED92OGNJYD7GNFC4FN9.uasset'
+[2025.01.24-16.55.50:062][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE
+[2025.01.24-16.55.50:062][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/UGFONL5LR5BEFOOUQD46CE89E031BB441CB8A19769368CD1BE6472.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/LH/UGFONL5LR5BEFOOUQD46CE.uasset'
+[2025.01.24-16.55.50:064][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU
+[2025.01.24-16.55.50:064][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/JXFY9XEW9A96KWW459EUQU16E53D474888E935FDCC66917F67A229.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/E/AC/JXFY9XEW9A96KWW459EUQU.uasset'
+[2025.01.24-16.55.50:066][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07
+[2025.01.24-16.55.50:066][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/US1HSY7RM39H4SWGWJJM0746EDC8AE4B52AC67A2FC1C9C4BEAD27F.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/D/S4/US1HSY7RM39H4SWGWJJM07.uasset'
+[2025.01.24-16.55.50:068][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT
+[2025.01.24-16.55.50:068][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TESQ3JB6AFA67UNUUF75CT2037A4F0438E993A86F365ABA73BADC7.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/35/TESQ3JB6AFA67UNUUF75CT.uasset'
+[2025.01.24-16.55.50:069][566]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X
+[2025.01.24-16.55.50:070][566]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/3YG44AOBI9QPS9TM4BRF5X4FF3F16042345EA13175A39D3EEE38C5.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/8/OM/3YG44AOBI9QPS9TM4BRF5X.uasset'
+[2025.01.24-16.55.50:121][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 342.015 ms (total: 444.834 ms)
+[2025.01.24-16.55.50:123][566]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.55.50:124][566]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.24-16.55.50:178][566]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.55.50:178][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.55.50:178][566]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.01.24-16.55.50:195][566]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.24-16.55.50:197][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.24-16.55.50:200][566]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.55.50:200][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.55.50:200][566]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.55.50:214][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.24-16.55.50:229][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.24-16.55.50:229][566]LogStreaming: Display: FlushAsyncLoading(390): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.24-16.55.50:235][566]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.01.24-16.55.50:235][566]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.24-16.55.50:238][566]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.55.50:238][566]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.55.50:238][566]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.55.50:257][566]LogWorldPartition: Display: WorldPartition initialize took 18.186 ms (total: 75.980 ms)
+[2025.01.24-16.55.50:299][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.24-16.55.50:299][566]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.24-16.55.50:299][566]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.24-16.55.50:316][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.24-16.55.50:321][566]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.24-16.55.50:324][566]MapCheck: Kartenprüfung abgeschlossen: 0 Fehler, 0 Warnung(en), dauerte 2,537ms bis zum Abschluss.
+[2025.01.24-16.55.50:388][566]LogContentValidation: Display: Starting to validate 47 assets
+[2025.01.24-16.55.50:388][566]LogContentValidation: Enabled validators:
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.24-16.55.50:388][566]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.24-16.55.50:389][566]AssetCheck: /Game/TopDown/Maps/TopDownMap1 Asset wird validiert
+[2025.01.24-16.55.50:437][567]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.14s
+[2025.01.24-16.55.55:739][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.24-16.55.55:742][165]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.55.55:742][165]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.24-16.55.55:756][165]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.55.55:756][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.55.55:756][165]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.55.55:773][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.24-16.55.55:775][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.24-16.55.55:776][165]LogStreaming: Display: FlushAsyncLoading(436): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.24-16.55.55:783][165]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.01.24-16.55.55:783][165]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.24-16.55.55:785][165]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.55.55:785][165]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.55.55:785][165]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.55.55:803][165]LogWorldPartition: Display: WorldPartition initialize took 17.829 ms (total: 93.810 ms)
+[2025.01.24-16.55.55:909][165]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.24-16.55.55:910][165]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.24-16.55.55:910][165]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.24-16.55.55:925][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.24-16.55.55:930][165]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.24-16.55.55:931][165]MapCheck: Kartenprüfung abgeschlossen: 0 Fehler, 0 Warnung(en), dauerte 0,731ms bis zum Abschluss.
+[2025.01.24-16.55.56:006][166]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.10s
+[2025.01.24-16.56.05:077][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.01.24-16.56.05:079][201]LogStreaming: Display: FlushAsyncLoading(482): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.24-16.56.05:086][201]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.01.24-16.56.05:087][201]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.56.05:087][201]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.56.05:087][201]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.56.05:104][201]LogWorldPartition: Display: WorldPartition initialize took 17.798 ms (total: 111.608 ms)
+[2025.01.24-16.56.05:106][201]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.01.24-16.56.05:107][201]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.24-16.56.05:157][201]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.56.05:157][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.56.05:157][201]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.56.05:176][201]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.24-16.56.05:178][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.01.24-16.56.05:179][201]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.56.05:180][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.56.05:180][201]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.01.24-16.56.05:243][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.01.24-16.56.05:257][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.01.24-16.56.05:264][201]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap'.
+[2025.01.24-16.56.05:264][201]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap
+[2025.01.24-16.56.05:266][201]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.56.05:266][201]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.56.05:266][201]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.56.05:283][201]LogWorldPartition: Display: WorldPartition initialize took 17.551 ms (total: 129.159 ms)
+[2025.01.24-16.56.05:327][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.24-16.56.05:327][201]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.24-16.56.05:327][201]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.24-16.56.05:343][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.24-16.56.05:348][201]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.24-16.56.05:348][201]MapCheck: Kartenprüfung abgeschlossen: 0 Fehler, 0 Warnung(en), dauerte 0,69ms bis zum Abschluss.
+[2025.01.24-16.56.05:401][202]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.07s
+[2025.01.24-16.56.13:639][155]LogContentBrowser: Attempting asset rename: TopDownMap1 -> PathfindingTest
+[2025.01.24-16.56.13:639][155]LogStreaming: Display: FlushAsyncLoading(574): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.24-16.56.13:667][155]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.24-16.56.13:668][155]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.56.13:668][155]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.56.13:668][155]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.56.13:675][155]LogWorldPartition: Display: WorldPartition initialize took 6.551 ms (total: 135.711 ms)
+[2025.01.24-16.56.22:323][155]LogSlate: Window 'Meldung' being destroyed
+[2025.01.24-16.56.22:331][155]Message dialog closed, result: Cancel, title: Meldung, text: Quellcode, Konfigurations-INI und Textdateien benötigen möglicherweise Suchen/Ersetzen für:
+
+
+TopDownMap1
+
+Andernfalls können bei gecookten Builds Assets fehlen. Weiter mit Umbenennen?
+[2025.01.24-16.56.25:767][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.24-16.56.25:770][537]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.56.25:771][537]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.24-16.56.25:805][537]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.56.25:805][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.56.25:805][537]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.01.24-16.56.25:824][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.24-16.56.25:827][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.24-16.56.25:828][537]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-16.56.25:828][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-16.56.25:828][537]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.24-16.56.25:844][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.01.24-16.56.25:857][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.01.24-16.56.25:901][537]LogStreaming: Display: FlushAsyncLoading(621): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.24-16.56.25:907][537]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.01.24-16.56.25:907][537]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.24-16.56.25:910][537]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.24-16.56.25:910][537]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.24-16.56.25:910][537]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.24-16.56.25:927][537]LogWorldPartition: Display: WorldPartition initialize took 17.495 ms (total: 153.206 ms)
+[2025.01.24-16.56.25:971][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.24-16.56.25:971][537]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.24-16.56.25:972][537]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.24-16.56.25:988][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.01.24-16.56.25:993][537]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.24-16.56.25:993][537]MapCheck: Kartenprüfung abgeschlossen: 0 Fehler, 0 Warnung(en), dauerte 0,763ms bis zum Abschluss.
+[2025.01.24-16.56.26:047][538]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.08s
+[2025.01.24-16.56.32:822][319]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 681.555969
+[2025.01.24-16.56.32:972][336]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.24-16.56.32:972][336]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 681.697876, Update Interval: 323.256927
