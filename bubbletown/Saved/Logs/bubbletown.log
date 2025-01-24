@@ -1939,3 +1939,127 @@ Would you like to regenerate the Skeleton from this mesh? This may invalidate or
 [2025.01.24-21.49.40:002][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2025.01.24-21.49.40:014][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
 [2025.01.24-21.49.40:026][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.733 ms (total: 289.125 ms)
+[2025.01.24-21.51.10:213][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.24-21.51.10:255][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.24-21.51.10:267][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.01.24-21.51.10:279][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.24-21.51.10:289][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.342 ms (total: 365.468 ms)
+[2025.01.24-21.51.11:487][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.01.24-21.51.12:811][488]LogSlate: Window 'Save Content' being destroyed
+[2025.01.24-21.51.12:822][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.24-21.51.12:860][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Player/Spieler_blue_1] ([1] browsable assets)...
+[2025.01.24-21.51.12:910][488]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Objects/Player/Spieler_blue_1.Spieler_blue_1]
+[2025.01.24-21.51.12:910][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Player/Spieler_blue_1]
+[2025.01.24-21.51.12:910][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Player/Spieler_blue_1" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1.uasset" SILENT=true
+[2025.01.24-21.51.12:919][488]LogSavePackage: Moving output files for package: /Game/Objects/Player/Spieler_blue_1
+[2025.01.24-21.51.12:919][488]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/Spieler_blue_18543C796489901598CD8EFABEC18D654.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1.uasset'
+[2025.01.24-21.51.12:920][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Player/Spieler_blue_1_PhysicsAsset] ([1] browsable assets)...
+[2025.01.24-21.51.12:927][488]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Objects/Player/Spieler_blue_1_PhysicsAsset.Spieler_blue_1_PhysicsAsset]
+[2025.01.24-21.51.12:927][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Player/Spieler_blue_1_PhysicsAsset]
+[2025.01.24-21.51.12:927][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Player/Spieler_blue_1_PhysicsAsset" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1_PhysicsAsset.uasset" SILENT=true
+[2025.01.24-21.51.12:929][488]LogSavePackage: Moving output files for package: /Game/Objects/Player/Spieler_blue_1_PhysicsAsset
+[2025.01.24-21.51.12:929][488]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/Spieler_blue_1_PhysicsAsset6C01EDF74B806858053526B376E65779.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1_PhysicsAsset.uasset'
+[2025.01.24-21.51.12:930][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Player/Spieler_blue_1_Skeleton] ([1] browsable assets)...
+[2025.01.24-21.51.12:937][488]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Objects/Player/Spieler_blue_1_Skeleton.Spieler_blue_1_Skeleton]
+[2025.01.24-21.51.12:937][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Player/Spieler_blue_1_Skeleton]
+[2025.01.24-21.51.12:937][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Player/Spieler_blue_1_Skeleton" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1_Skeleton.uasset" SILENT=true
+[2025.01.24-21.51.12:938][488]LogSavePackage: Moving output files for package: /Game/Objects/Player/Spieler_blue_1_Skeleton
+[2025.01.24-21.51.12:938][488]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/Spieler_blue_1_SkeletonC29BF1A94575E1B7E9170F8CA5FCA91C.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_blue_1_Skeleton.uasset'
+[2025.01.24-21.51.12:939][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Player/Spieler_orange_1] ([1] browsable assets)...
+[2025.01.24-21.51.12:946][488]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Objects/Player/Spieler_orange_1.Spieler_orange_1]
+[2025.01.24-21.51.12:946][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Player/Spieler_orange_1]
+[2025.01.24-21.51.12:946][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Player/Spieler_orange_1" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_orange_1.uasset" SILENT=true
+[2025.01.24-21.51.12:953][488]LogSavePackage: Moving output files for package: /Game/Objects/Player/Spieler_orange_1
+[2025.01.24-21.51.12:953][488]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/Spieler_orange_15A04617C4D9C7B4BED5A5D918CF404DD.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_orange_1.uasset'
+[2025.01.24-21.51.12:954][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Player/Spieler_orange_1_PhysicsAsset] ([1] browsable assets)...
+[2025.01.24-21.51.12:960][488]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Objects/Player/Spieler_orange_1_PhysicsAsset.Spieler_orange_1_PhysicsAsset]
+[2025.01.24-21.51.12:960][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Player/Spieler_orange_1_PhysicsAsset]
+[2025.01.24-21.51.12:960][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Player/Spieler_orange_1_PhysicsAsset" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_orange_1_PhysicsAsset.uasset" SILENT=true
+[2025.01.24-21.51.12:962][488]LogSavePackage: Moving output files for package: /Game/Objects/Player/Spieler_orange_1_PhysicsAsset
+[2025.01.24-21.51.12:962][488]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/Spieler_orange_1_PhysicsAssetF24AA16047BB2D8A6E6AD68B642B7791.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Player/Spieler_orange_1_PhysicsAsset.uasset'
+[2025.01.24-21.51.12:975][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.997 ms (total: 518.465 ms)
+[2025.01.24-21.51.13:020][488]LogContentValidation: Display: Starting to validate 5 assets
+[2025.01.24-21.51.13:020][488]LogContentValidation: Enabled validators:
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.24-21.51.13:020][488]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.24-21.51.13:021][488]AssetCheck: /Game/Objects/Player/Spieler_blue_1 Validating asset
+[2025.01.24-21.51.13:021][488]AssetCheck: Error: [AssetLog] G:\BubbleTown\bubbletown\bubbletown\Content\Objects\Player\Spieler_blue_1.uasset: This skeletal mesh asset has an incompatible Skeleton. Assign a compatible skeleton to this skeletal mesh asset.
+[2025.01.24-21.51.13:021][488]AssetCheck: /Game/Objects/Player/Spieler_blue_1_PhysicsAsset Validating asset
+[2025.01.24-21.51.13:021][488]AssetCheck: /Game/Objects/Player/Spieler_blue_1_Skeleton Validating asset
+[2025.01.24-21.51.13:021][488]AssetCheck: /Game/Objects/Player/Spieler_orange_1 Validating asset
+[2025.01.24-21.51.13:021][488]AssetCheck: /Game/Objects/Player/Spieler_orange_1_PhysicsAsset Validating asset
+[2025.01.24-21.51.20:141][221]LogSlate: Window 'Message Log' being destroyed
+[2025.01.24-21.51.20:151][221]LogSlate: Window 'Message Log' being destroyed
+[2025.01.24-21.51.21:499][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.24-21.51.21:549][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.24-21.51.21:560][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.24-21.51.21:572][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.24-21.51.21:584][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.327 ms (total: 603.792 ms)
+[2025.01.24-21.51.24:335][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.01.24-21.51.24:370][669]LogStall: Shutdown...
+[2025.01.24-21.51.24:370][669]LogStall: Shutdown complete.
+[2025.01.24-21.51.24:407][669]LogSlate: Window 'bubbletown - Unreal Editor' being destroyed
+[2025.01.24-21.51.24:480][669]Cmd: QUIT_EDITOR
+[2025.01.24-21.51.24:480][670]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.01.24-21.51.24:486][670]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.01.24-21.51.24:487][670]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.01.24-21.51.24:487][670]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.01.24-21.51.24:488][670]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:488][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:488][670]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2025.01.24-21.51.24:497][670]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.01.24-21.51.24:500][670]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.01.24-21.51.24:502][670]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:504][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:504][670]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:504][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:504][670]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:504][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:504][670]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:504][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:504][670]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.01.24-21.51.24:504][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.24-21.51.24:507][670]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.01.24-21.51.24:510][670]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.01.24-21.51.24:510][670]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.01.24-21.51.24:510][670]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.01.24-21.51.24:513][670]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.01.24-21.51.24:513][670]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.01.24-21.51.24:513][670]LogAudio: Display: Audio Device unregistered from world 'TopDownMap'.
+[2025.01.24-21.51.24:513][670]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.01.24-21.51.24:514][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.24-21.51.24:517][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.01.24-21.51.24:527][670]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.01.24-21.51.24:527][670]LogAudio: Display: Audio Device Manager Shutdown
+[2025.01.24-21.51.24:528][670]LogWindowsTextInputMethodSystem: Activated input method: German (Germany) - (Keyboard).
+[2025.01.24-21.51.24:532][670]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.01.24-21.51.24:535][670]LogExit: Preparing to exit.
+[2025.01.24-21.51.24:566][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.24-21.51.25:259][670]LogEditorDataStorage: Deinitializing
+[2025.01.24-21.51.25:422][670]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.01.24-21.51.25:442][670]LogExit: Editor shut down
+[2025.01.24-21.51.25:444][670]LogExit: Transaction tracking system shut down
+[2025.01.24-21.51.25:611][670]LogExit: Object subsystem successfully closed.
+[2025.01.24-21.51.25:633][670]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.01.24-21.51.26:390][670]LogMemoryProfiler: Shutdown
+[2025.01.24-21.51.26:390][670]LogNetworkingProfiler: Shutdown
+[2025.01.24-21.51.26:390][670]LoadingProfiler: Shutdown
+[2025.01.24-21.51.26:391][670]LogTimingProfiler: Shutdown
+[2025.01.24-21.51.26:869][670]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.01.24-21.51.26:875][670]RenderDocPlugin: plugin has been unloaded.
+[2025.01.24-21.51.26:889][670]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.01.24-21.51.26:889][670]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9588BFCC-4702-FA35-A620-778C3E058DD6%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=28365ce24e1a12b6467765918caeadb7%7C1f1d0af31cd94b24a6cfcdc650e3de05%7C508de3fc-9f2f-4d07-a98d-39dfecf1b9fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.01.24-21.51.27:427][670]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.01.24-21.51.27:427][670]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.01.24-21.51.27:427][670]LogNFORDenoise: NFORDenoise function shutting down
+[2025.01.24-21.51.27:430][670]LogXGEController: Cleaning working directory: C:/Users/Madleen/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.01.24-21.51.27:435][670]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.01.24-21.51.27:435][670]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.01.24-21.51.27:435][670]LogPakFile: Destroying PakPlatformFile
+[2025.01.24-21.51.27:654][670]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.01.24-21.51.27:691][670]LogExit: Exiting.
+[2025.01.24-21.51.27:719][670]Log file closed, 01/24/25 22:51:27
