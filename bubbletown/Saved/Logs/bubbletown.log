@@ -2995,3 +2995,755 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.25-09.36.15:396][ 89]AssetCheck: /Game/TopDown/Maps/TopDownMap1 Validating asset
 [2025.01.25-09.36.15:464][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.01.25-09.38.09:639][211]LogContentBrowser: Deferred new asset file creation: NewTexture2DArray
+[2025.01.25-09.38.09:646][211]LogContentBrowser: Creating deferred item: NewTexture2DArray
+[2025.01.25-09.38.09:664][212]LogContentBrowser: Renaming the item being created (Deferred Item: NewTexture2DArray).
+[2025.01.25-09.38.13:324][583]LogContentBrowser: Attempting asset rename: NewTexture2DArray -> NewTexture2DArray
+[2025.01.25-09.38.13:326][583]LogContentBrowser: End creating deferred item NewTexture2DArray
+[2025.01.25-09.38.18:412][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.01.25-09.38.19:522][983]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.25-09.38.19:581][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.01.25-09.38.19:636][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.25-09.38.19:698][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.01.25-09.38.24:344][357]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-09.38.24:373][357]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-09.38.24:385][358]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-09.38.27:382][660]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2025.01.25-09.38.27:383][660]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-09.38.30:723][932]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-09.38.30:734][932]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-09.38.30:758][934]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-09.38.34:506][312]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2025.01.25-09.38.34:507][312]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-09.38.42:227][ 33]LogContentBrowser: Attempting asset rename: NewFolder -> MainMenu
+[2025.01.25-09.39.15:870][597]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.01.25-09.39.15:881][597]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.01.25-09.39.15:890][597]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.01.25-09.39.15:924][599]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.01.25-09.39.20:909][ 98]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BP_MainWidget
+[2025.01.25-09.39.20:920][ 98]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.01.25-09.39.27:526][740]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget
+[2025.01.25-09.39.27:526][740]LogChaosDD: Creating Chaos Debug Draw Scene for world World_16
+[2025.01.25-09.39.27:538][740]LogChaosDD: Creating Chaos Debug Draw Scene for world World_17
+[2025.01.25-09.39.27:545][740]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.01.25-09.39.27:732][740]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'SequencerGraphEditor'
+[2025.01.25-09.39.27:733][740]LogSlate: The tab "SequencerGraphEditor" attempted to spawn in layout 'WidgetBlueprintEditor_Designer_Layout_v4_8' but failed for some reason. It will not be displayed.
+[2025.01.25-09.39.28:169][740]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.01.25-09.39.28:176][740]LogSlate: Took 0.006899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.01.25-09.40.57:388][153]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3663.403564
+[2025.01.25-09.40.58:390][156]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-09.40.58:390][156]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3664.073242, Update Interval: 342.945038
+[2025.01.25-09.41.49:164][309]LogDerivedDataCache: C:/Users/mads-/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.25-09.46.16:172][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.01.25-09.46.16:178][946]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap1' took 0.115
+[2025.01.25-09.46.16:179][946]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_MainWidget] ([2] browsable assets)...
+[2025.01.25-09.46.16:181][946]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget]
+[2025.01.25-09.46.16:181][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_MainWidget]
+[2025.01.25-09.46.16:181][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_MainWidget" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-09.46.16:184][946]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto3
+[2025.01.25-09.46.16:185][946]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_MainWidget_Auto3743374274D1C94752DCCF7AAC9E0DB1A.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto3.uasset'
+[2025.01.25-09.46.16:185][946]LogFileHelpers: Auto-saving content packages took 0.007
+[2025.01.25-09.47.12:767][170]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4038.775391
+[2025.01.25-09.47.13:768][173]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-09.47.13:768][173]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4039.444092, Update Interval: 323.921631
+[2025.01.25-09.53.16:510][261]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4402.512207
+[2025.01.25-09.53.17:509][264]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-09.53.17:509][264]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4403.181641, Update Interval: 305.804626
+[2025.01.25-09.59.06:568][311]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4752.558105
+[2025.01.25-09.59.07:568][314]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-09.59.07:568][314]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4753.225586, Update Interval: 305.669128
+[2025.01.25-10.03.14:952][ 53]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.25-10.03.42:753][885]LogSlate: Took 0.006291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: ================================================
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Total job queries 200, among them cache hits 14 (7.00%), DDC hits 163 (81.50%), Duplicates 4 (2.00%)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Tracking 182 distinct input hashes that result in 160 distinct outputs (87.91%)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: RAM used: 122,53 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Shaders Compiled: 19
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Average time worker was idle: 0.50 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Job execution time: average 0.90 s, max 2.44 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Job life time (pending + execution): average 0.97 s, max 2.47
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Shader code size: average 8,212 KiB, min 4,828 KiB, max 11,938 KiB
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.02 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Average processing rate: 2.71 jobs/sec
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Total thread time: 10,877 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Total thread preprocess time: 4,146 s
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Percentage time preprocessing: 38.12%
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Effective parallelization: 1.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    2 times, average 0.99 sec, max 1.00 sec, min 0.99 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.98 sec, max 1.03 sec, min 0.94 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.54 sec, max 0.57 sec, min 0.51 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.37 sec, max 0.38 sec, min 0.37 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.37 sec, max 0.43 sec, min 0.33 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 27.11% of total time (compiled    3 times, average 0.98 sec, max 1.03 sec, min 0.94 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.62% of total time (compiled    5 times, average 0.54 sec, max 0.57 sec, min 0.51 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 18.27% of total time (compiled    2 times, average 0.99 sec, max 1.00 sec, min 0.99 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.06% of total time (compiled    5 times, average 0.37 sec, max 0.43 sec, min 0.33 sec)
+[2025.01.25-10.03.59:257][936]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.89% of total time (compiled    2 times, average 0.37 sec, max 0.38 sec, min 0.37 sec)
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: === Material stats ===
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Materials Translated:    131
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Material Translation Only: 0.04 s (52%)
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: Material Cache Hits: 26 (20%)
+[2025.01.25-10.03.59:259][936]LogShaderCompilers: Display: ================================================
+[2025.01.25-10.04.06:295][336]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.04.06:401][336]LogInterchangeEngine: [Pending] Importing
+[2025.01.25-10.04.06:401][336]LogInterchangeEngine: Display: Interchange start importing source [D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/Title@4x.png]
+[2025.01.25-10.04.06:979][338]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.04.06:987][339]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2025.01.25-10.04.07:303][340]LogTexture: Display: Building textures: /Game/UI/MainMenu/Title_4x.Title_4x (BGRA8, 1774x335 x1x1x1) (Required Memory Estimate: 19.703035 MB), EncodeSpeed: Fast
+[2025.01.25-10.04.07:651][340]LogInterchangeEngine: Display: Interchange import completed [D:/Documents/bubblet.../Content/UI/MainMenu/Title@4x.png]
+[2025.01.25-10.04.07:661][340]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.25-10.04.07:661][340]LogInterchangeEngine: [Success] Import Done
+[2025.01.25-10.04.35:406][821]LogEditorTransaction: Undo Resize Widget
+[2025.01.25-10.05.03:041][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.01.25-10.05.03:046][125]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap1' took 0.071
+[2025.01.25-10.05.03:046][125]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_MainWidget] ([2] browsable assets)...
+[2025.01.25-10.05.03:049][125]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget]
+[2025.01.25-10.05.03:049][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_MainWidget]
+[2025.01.25-10.05.03:049][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_MainWidget" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-10.05.03:051][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto4
+[2025.01.25-10.05.03:051][125]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_MainWidget_Auto4CE7336FF4A571BDA387EBB998D9B1936.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto4.uasset'
+[2025.01.25-10.05.03:052][125]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/MainMenu/Title_4x] ([1] browsable assets)...
+[2025.01.25-10.05.03:054][125]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/MainMenu/Title_4x.Title_4x]
+[2025.01.25-10.05.03:054][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/Title_4x]
+[2025.01.25-10.05.03:054][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/Title_4x" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Title_4x_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-10.05.03:056][125]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/Title_4x_Auto4
+[2025.01.25-10.05.03:056][125]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Title_4x_Auto45994CE0B4619CD9AC29998BE1C2D6164.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Title_4x_Auto4.uasset'
+[2025.01.25-10.05.03:057][125]LogFileHelpers: Auto-saving content packages took 0.012
+[2025.01.25-10.05.03:606][127]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5109.597656
+[2025.01.25-10.05.04:606][130]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.05.04:606][130]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5110.264648, Update Interval: 317.895447
+[2025.01.25-10.10.16:580][536]LogInterchangeEngine: [Pending] Importing
+[2025.01.25-10.10.16:592][536]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.25-10.10.16:592][536]LogInterchangeEngine: [Success] Import Done
+[2025.01.25-10.10.19:644][774]AssetReimport: Reimported asset Title_4x from D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/Title@4x.png.
+[2025.01.25-10.10.23:659][963]LogAssetTools: Warning: Failed to import 'D:\Documents\bubbletown\bubbletown\Content\UI\MainMenu\Title.svg'. Unknown extension 'svg'.
+[2025.01.25-10.10.26:635][ 48]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI/MainMenu/Title_4x.Title_4x
+[2025.01.25-10.10.34:637][889]LogTexture: Display: Building textures: /Game/UI/MainMenu/Title_4x.Title_4x (BGRA8, 1774x335 x1x1x1) (Required Memory Estimate: 19.703035 MB), EncodeSpeed: Final
+[2025.01.25-10.11.07:864][973]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5473.869629
+[2025.01.25-10.11.08:864][976]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.11.08:864][976]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5474.535156, Update Interval: 312.828766
+[2025.01.25-10.11.46:027][337]LogInterchangeEngine: [Pending] Importing
+[2025.01.25-10.11.46:034][337]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.01.25-10.11.46:045][337]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.25-10.11.46:045][337]LogInterchangeEngine: [Success] Import Done
+[2025.01.25-10.11.46:188][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.01.25-10.11.48:411][338]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.25-10.11.48:639][338]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.11.48:639][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.11.48:647][338]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.11.48:647][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.11.48:674][338]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/MainMenu/Title_4x.Title_4x
+	Asset Type: Texture2D
+[2025.01.25-10.11.49:230][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.01.25-10.11.49:291][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.01.25-10.11.49:347][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.01.25-10.11.49:411][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.01.25-10.11.51:626][515]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI/MainMenu/Untitled-1.Untitled-1
+[2025.01.25-10.11.52:449][560]AssetReimport: Attempting to delete Title_4x (its source file has been removed).
+[2025.01.25-10.12.02:606][597]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget
+[2025.01.25-10.12.02:606][597]LogChaosDD: Creating Chaos Debug Draw Scene for world World_18
+[2025.01.25-10.12.02:618][597]LogChaosDD: Creating Chaos Debug Draw Scene for world World_19
+[2025.01.25-10.12.45:264][179]LogEditorTransaction: Undo Resize Widget
+[2025.01.25-10.15.03:457][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.25-10.15.03:461][771]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap1' took 0.137
+[2025.01.25-10.15.03:461][771]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_MainWidget] ([2] browsable assets)...
+[2025.01.25-10.15.03:463][771]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget]
+[2025.01.25-10.15.03:463][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_MainWidget]
+[2025.01.25-10.15.03:463][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_MainWidget" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-10.15.03:466][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto5
+[2025.01.25-10.15.03:466][771]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_MainWidget_Auto5E3FC18E04F78C5CF0421368D6D865CAC.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/BP_MainWidget_Auto5.uasset'
+[2025.01.25-10.15.03:467][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/MainMenu/Untitled-1] ([1] browsable assets)...
+[2025.01.25-10.15.03:468][771]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/MainMenu/Untitled-1.Untitled-1]
+[2025.01.25-10.15.03:468][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/Untitled-1]
+[2025.01.25-10.15.03:468][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/Untitled-1" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Untitled-1_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-10.15.03:472][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/Untitled-1_Auto5
+[2025.01.25-10.15.03:472][771]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Untitled-1_Auto5CF4A0C314532DBE6082FC187FF80592B.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Untitled-1_Auto5.uasset'
+[2025.01.25-10.15.03:473][771]LogFileHelpers: Auto-saving content packages took 0.012
+[2025.01.25-10.15.37:750][831]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.37:765][832]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.37:887][833]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.37:918][833]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.37:934][834]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:093][836]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:234][837]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:246][838]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:249][838]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:253][838]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:255][838]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:371][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:374][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:376][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:377][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:380][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:382][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:385][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:387][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:389][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:420][839]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:433][840]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:436][840]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:441][840]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:555][841]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:558][841]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:599][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:601][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:604][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:608][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:723][843]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:754][843]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:767][844]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:884][845]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.15.38:887][845]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.01.25-10.16.56:886][982]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5822.880371
+[2025.01.25-10.16.57:044][  1]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.16.57:044][  1]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5823.030762, Update Interval: 347.185883
+[2025.01.25-10.17.24:408][591]LogEditorTransaction: Undo Edit Right
+[2025.01.25-10.17.24:744][592]LogEditorTransaction: Undo Edit Right
+[2025.01.25-10.17.25:716][655]LogEditorTransaction: Undo Edit Top
+[2025.01.25-10.17.26:543][707]LogEditorTransaction: Undo Changed Anchors
+[2025.01.25-10.17.27:144][733]LogEditorTransaction: Undo Changed Anchors
+[2025.01.25-10.17.27:775][761]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.01.25-10.22.21:921][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.01.25-10.23.25:184][ 67]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6211.152832
+[2025.01.25-10.23.25:334][ 85]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.23.25:334][ 85]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6211.293945, Update Interval: 318.726776
+[2025.01.25-10.23.44:304][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.01.25-10.23.58:088][301]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.01.25-10.23.58:100][301]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.01.25-10.23.58:108][301]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.01.25-10.23.58:120][302]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.01.25-10.24.05:199][992]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BP_Settings
+[2025.01.25-10.24.05:210][992]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.01.25-10.24.08:821][320]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu/BP_Settings.BP_Settings
+[2025.01.25-10.24.08:821][320]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2025.01.25-10.24.08:831][320]LogChaosDD: Creating Chaos Debug Draw Scene for world World_21
+[2025.01.25-10.25.26:126][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.25.26:169][749]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_MainWidget] ([2] browsable assets)...
+[2025.01.25-10.25.26:174][749]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_MainWidget.BP_MainWidget]
+[2025.01.25-10.25.26:174][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_MainWidget]
+[2025.01.25-10.25.26:174][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_MainWidget" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_MainWidget.uasset" SILENT=true
+[2025.01.25-10.25.26:183][749]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/BP_MainWidget
+[2025.01.25-10.25.26:183][749]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_MainWidget32B94C924F73B4A4E8D6F6B648BCD406.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_MainWidget.uasset'
+[2025.01.25-10.25.26:202][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.062 ms (total: 1.41 sec)
+[2025.01.25-10.25.26:241][749]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.25.26:241][749]LogContentValidation: Enabled validators:
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.25.26:241][749]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.25.26:242][749]AssetCheck: /Game/UI/MainMenu/BP_MainWidget Validating asset
+[2025.01.25-10.25.30:367][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.25.30:404][166]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/MainMenu/BP_MainWidget] ([2] browsable assets)...
+[2025.01.25-10.25.30:404][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_MainWidget]
+[2025.01.25-10.25.30:404][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_MainWidget" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_MainWidget.uasset" SILENT=true
+[2025.01.25-10.25.30:411][166]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/BP_MainWidget
+[2025.01.25-10.25.30:412][166]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_MainWidgetCB9C01564AB71A5FA22638A68B1C6FA8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_MainWidget.uasset'
+[2025.01.25-10.25.30:422][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.640 ms (total: 1.47 sec)
+[2025.01.25-10.25.30:462][166]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.25.30:462][166]LogContentValidation: Enabled validators:
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.25.30:462][166]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.25.30:462][166]AssetCheck: /Game/UI/MainMenu/BP_MainWidget Validating asset
+[2025.01.25-10.25.33:185][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.01.25-10.26.12:166][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.26.12:210][356]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_Settings] ([2] browsable assets)...
+[2025.01.25-10.26.12:214][356]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_Settings.BP_Settings]
+[2025.01.25-10.26.12:214][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_Settings]
+[2025.01.25-10.26.12:214][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_Settings" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset" SILENT=true
+[2025.01.25-10.26.12:217][356]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/BP_Settings
+[2025.01.25-10.26.12:217][356]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_SettingsD9CC9189457187400D1B2488D4C806AE.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset'
+[2025.01.25-10.26.12:236][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.209 ms (total: 1.54 sec)
+[2025.01.25-10.26.12:283][356]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.26.12:283][356]LogContentValidation: Enabled validators:
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.26.12:283][356]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.26.12:283][356]AssetCheck: /Game/UI/MainMenu/BP_Settings Validating asset
+[2025.01.25-10.26.13:639][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.25-10.26.54:965][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.26.55:004][548]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_Settings] ([2] browsable assets)...
+[2025.01.25-10.26.55:007][548]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_Settings.BP_Settings]
+[2025.01.25-10.26.55:007][548]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_Settings]
+[2025.01.25-10.26.55:007][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_Settings" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset" SILENT=true
+[2025.01.25-10.26.55:012][548]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/BP_Settings
+[2025.01.25-10.26.55:012][548]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_SettingsB1FC64F34559EBD3F53A7CBD8D235F3D.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset'
+[2025.01.25-10.26.55:024][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.338 ms (total: 1.60 sec)
+[2025.01.25-10.26.55:070][548]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.26.55:070][548]LogContentValidation: Enabled validators:
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.26.55:070][548]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.26.55:071][548]AssetCheck: /Game/UI/MainMenu/BP_Settings Validating asset
+[2025.01.25-10.26.57:653][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.01.25-10.27.26:809][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.27.26:847][989]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/MainMenu/BP_Settings] ([2] browsable assets)...
+[2025.01.25-10.27.26:850][989]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/MainMenu/BP_Settings.BP_Settings]
+[2025.01.25-10.27.26:850][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/BP_Settings]
+[2025.01.25-10.27.26:850][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/BP_Settings" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset" SILENT=true
+[2025.01.25-10.27.26:855][989]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/BP_Settings
+[2025.01.25-10.27.26:855][989]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_SettingsCD687E4947640A784ABD17B0347B6729.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/BP_Settings.uasset'
+[2025.01.25-10.27.26:866][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.166 ms (total: 1.65 sec)
+[2025.01.25-10.27.26:902][989]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.27.26:902][989]LogContentValidation: Enabled validators:
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.27.26:902][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.27.26:903][989]AssetCheck: /Game/UI/MainMenu/BP_Settings Validating asset
+[2025.01.25-10.27.28:939][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.25-10.27.57:851][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.01.25-10.27.57:854][327]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap1' took 0.063
+[2025.01.25-10.27.57:854][327]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/MainMenu/Untitled-1] ([1] browsable assets)...
+[2025.01.25-10.27.57:854][327]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/Untitled-1]
+[2025.01.25-10.27.57:854][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/Untitled-1" FILE="D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Untitled-1_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2025.01.25-10.27.57:858][327]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/Untitled-1_Auto6
+[2025.01.25-10.27.57:858][327]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Untitled-1_Auto6FC583B50488272DDCAE597A19470C7A1.tmp' to 'D:/Documents/bubbletown/bubbletown/Saved/Autosaves/Game/UI/MainMenu/Untitled-1_Auto6.uasset'
+[2025.01.25-10.27.57:859][327]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.01.25-10.28.26:605][356]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.01.25-10.28.26:616][356]LogContentBrowser: Creating deferred item: NewWorld
+[2025.01.25-10.28.26:629][357]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.01.25-10.28.30:590][731]LogContentBrowser: Attempting asset rename: NewWorld -> MainMenu
+[2025.01.25-10.28.30:591][731]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.28.30:594][731]LogContentBrowser: End creating deferred item NewWorld
+[2025.01.25-10.28.33:439][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.25-10.28.36:156][977]LogSlate: Window 'Save Content' being destroyed
+[2025.01.25-10.28.36:170][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.28.36:215][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/MainMenu" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-10.28.36:275][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.25-10.28.36:279][977]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/MainMenu
+[2025.01.25-10.28.36:279][977]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/MainMenu6B7C5E78440597D8B1966484B6FE6450.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap'
+[2025.01.25-10.28.36:289][977]LogFileHelpers: Saving map 'MainMenu' took 0.075
+[2025.01.25-10.28.36:289][977]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/MainMenu/Untitled-1] ([1] browsable assets)...
+[2025.01.25-10.28.36:289][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/MainMenu/Untitled-1]
+[2025.01.25-10.28.36:289][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/Untitled-1" FILE="D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/Untitled-1.uasset" SILENT=true
+[2025.01.25-10.28.36:295][977]LogSavePackage: Moving output files for package: /Game/UI/MainMenu/Untitled-1
+[2025.01.25-10.28.36:295][977]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Untitled-100FE9E0F4E3DCC8E3F764D9FD7A2FEE3.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/UI/MainMenu/Untitled-1.uasset'
+[2025.01.25-10.28.36:346][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.875 ms (total: 1.83 sec)
+[2025.01.25-10.28.36:346][977]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/MainMenu.MainMenu
+[2025.01.25-10.28.36:347][977]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-10.28.36:403][977]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.28.36:403][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.28.36:403][977]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.28.36:472][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.28.36:479][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.01.25-10.28.36:482][977]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.28.36:482][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.28.36:546][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.01.25-10.28.36:609][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.01.25-10.28.36:611][977]LogStreaming: Display: FlushAsyncLoading(695): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.28.36:613][977]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.01.25-10.28.36:613][977]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.28.36:660][977]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-10.28.36:723][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.25-10.28.36:733][977]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-10.28.36:733][977]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2025.01.25-10.28.36:798][977]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.25-10.28.36:798][977]LogContentValidation: Enabled validators:
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.28.36:798][977]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.28.36:798][977]AssetCheck: /Game/TopDown/Maps/MainMenu Validating asset
+[2025.01.25-10.28.36:798][977]AssetCheck: /Game/UI/MainMenu/Untitled-1 Validating asset
+[2025.01.25-10.28.42:155][503]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/TopDown/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2025.01.25-10.28.42:156][503]LogChaosDD: Creating Chaos Debug Draw Scene for world World_27
+[2025.01.25-10.29.32:092][667]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6578.012695
+[2025.01.25-10.29.32:254][686]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.29.32:254][686]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6578.165527, Update Interval: 348.198486
+[2025.01.25-10.32.29:832][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.01.25-10.32.34:247][592]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-10.32.34:266][592]LogPlayLevel: [PlayLevel] Compiling BP_GameManager before play...
+[2025.01.25-10.32.34:330][592]LogPlayLevel: [PlayLevel]   Compiling BP_Targets as a dependent...
+[2025.01.25-10.32.34:346][592]LogPlayLevel: [PlayLevel]   Compiling BP_NPC as a dependent...
+[2025.01.25-10.32.34:468][592]LogPlayLevel: [PlayLevel] Compiling TempPlayer before play...
+[2025.01.25-10.32.34:571][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.01.25-10.32.34:574][592]LogPlayLevel: PlayLevel: Blueprint regeneration took 317 ms (4 blueprints)
+[2025.01.25-10.32.34:611][592]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_MainMenu
+[2025.01.25-10.32.34:613][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001676s)
+[2025.01.25-10.32.34:613][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/MainMenu.MainMenu to /Game/TopDown/Maps/UEDPIE_0_MainMenu.MainMenu (0.001731s)
+[2025.01.25-10.32.34:674][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.01.25-10.32.34:677][592]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.32.34:679][592]LogPlayLevel: PIE: World Init took: (0.002057s)
+[2025.01.25-10.32.34:680][592]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-10.32.34:680][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-10.32.34:680][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-10.32.34:680][592]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-10.32.34:680][592]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-10.32.34:680][592]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-10.32.34:683][592]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-10.32.34:713][592]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (High Definition Audio Device)
+[2025.01.25-10.32.34:713][592]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-10.32.34:713][592]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-10.32.34:713][592]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-10.32.34:715][592]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.01.25-10.32.34:715][592]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.01.25-10.32.34:717][592]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.01.25-10.32.34:717][592]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.01.25-10.32.34:717][592]LogInit: FAudioDevice initialized with ID 12.
+[2025.01.25-10.32.34:717][592]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainMenu'.
+[2025.01.25-10.32.34:717][592]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.01.25-10.32.34:728][592]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.01.25-10.32.34:728][592]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.01.25-11.32.34
+[2025.01.25-10.32.34:729][592]LogWorld: Bringing up level for play took: 0.000621
+[2025.01.25-10.32.34:732][592]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.01.25-10.32.34:736][592]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.01.25-10.32.34:736][592]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.01.25-10.32.34:738][592]PIE: Server logged in
+[2025.01.25-10.32.34:739][592]PIE: Play in editor total start time 0,483 seconds.
+[2025.01.25-10.32.41:393][326]Cmd: quit
+[2025.01.25-10.32.41:395][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.32.41:395][326]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_MainMenu
+[2025.01.25-10.32.41:431][326]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.32.41:431][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.32.41:435][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-10.32.41:444][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.32.41:509][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.32.41:509][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.01.25-10.32.41:509][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.01.25-10.32.41:512][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.01.25-10.32.41:519][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.01.25-10.32.41:575][327]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.01.25-10.33.06:927][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.01.25-10.33.08:298][194]LogSlate: Window 'Save Content' being destroyed
+[2025.01.25-10.33.08:311][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.33.08:359][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/MainMenu" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-10.33.08:447][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.01.25-10.33.08:456][194]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/MainMenu
+[2025.01.25-10.33.08:456][194]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/MainMenuBFC3A6424BF51DF7CEF679858E84A63E.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap'
+[2025.01.25-10.33.08:466][194]LogFileHelpers: Saving map 'MainMenu' took 0.107
+[2025.01.25-10.33.08:527][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.024 ms (total: 2.05 sec)
+[2025.01.25-10.33.08:527][194]LogStreaming: Display: FlushAsyncLoading(696): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.33.08:615][194]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.33.08:617][194]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-10.33.08:617][194]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.33.08:617][194]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-10.33.08:907][194]LogWorldPartition: Display: WorldPartition initialize took 289.747 ms (total: 417.375 ms)
+[2025.01.25-10.33.08:913][194]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.33.08:914][194]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-10.33.08:964][194]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.33.08:964][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.33.09:038][194]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.33.09:038][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.33.09:107][194]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.33.09:110][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.01.25-10.33.09:121][194]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.33.09:123][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.33.09:123][194]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.33.09:183][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.01.25-10.33.09:247][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.01.25-10.33.09:289][194]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.01.25-10.33.09:289][194]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.33.09:290][194]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-10.33.09:290][194]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.33.09:290][194]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-10.33.09:324][194]LogWorldPartition: Display: WorldPartition initialize took 33.757 ms (total: 451.132 ms)
+[2025.01.25-10.33.09:379][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-10.33.09:379][194]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.25-10.33.09:380][194]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.25-10.33.09:447][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.01.25-10.33.09:457][194]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-10.33.09:458][194]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,891ms to complete.
+[2025.01.25-10.33.09:516][194]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.33.09:516][194]LogContentValidation: Enabled validators:
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.33.09:516][194]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.33.09:603][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.01.25-10.33.09:667][195]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.29s
+[2025.01.25-10.33.16:466][686]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/TopDown/Maps/TopDownMap1.TopDownMap1:PersistentLevel.TopDownMap1
+[2025.01.25-10.33.16:467][686]LogChaosDD: Creating Chaos Debug Draw Scene for world World_28
+[2025.01.25-10.33.52:493][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.33.52:535][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/TopDownMap1" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-10.33.52:698][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2025.01.25-10.33.52:708][497]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TopDownMap1
+[2025.01.25-10.33.52:708][497]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TopDownMap1B031861F4AEC37CFA1C23EA163BBD790.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap'
+[2025.01.25-10.33.52:718][497]LogFileHelpers: All files are already saved.
+[2025.01.25-10.33.52:719][497]LogFileHelpers: Saving map 'TopDownMap1' took 0.186
+[2025.01.25-10.33.52:730][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 237.603 ms (total: 2.28 sec)
+[2025.01.25-10.33.52:774][497]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-10.33.52:774][497]LogContentValidation: Enabled validators:
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.33.52:774][497]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.33.52:774][497]AssetCheck: /Game/TopDown/Maps/TopDownMap1 Validating asset
+[2025.01.25-10.34.02:430][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.01.25-10.34.06:968][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.25-10.34.06:970][  5]LogStreaming: Display: FlushAsyncLoading(796): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.34.07:048][  5]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.34.07:051][  5]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/MainMenu.MainMenu
+[2025.01.25-10.34.07:051][  5]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-10.34.07:104][  5]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.34.07:104][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.34.07:179][  5]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.34.07:179][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.34.07:179][  5]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.34.07:249][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.34.07:254][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.01.25-10.34.07:264][  5]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.34.07:264][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.34.07:325][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.25-10.34.07:392][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.25-10.34.07:426][  5]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.01.25-10.34.07:426][  5]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.34.07:472][  5]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-10.34.07:538][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.25-10.34.07:548][  5]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-10.34.07:548][  5]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,069ms to complete.
+[2025.01.25-10.34.07:638][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.25-10.34.42:514][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.01.25-10.34.42:520][288]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/MainMenu.MainMenu
+[2025.01.25-10.34.42:520][288]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-10.34.42:543][288]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.34.42:544][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.34.42:604][288]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.34.42:607][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.01.25-10.34.42:657][288]LogStreaming: Display: FlushAsyncLoading(798): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.34.42:686][288]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.01.25-10.34.42:686][288]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.34.42:722][288]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-10.34.42:788][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.01.25-10.34.42:799][288]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-10.34.42:799][288]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,078ms to complete.
+[2025.01.25-10.35.51:804][107]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6957.667969
+[2025.01.25-10.35.51:975][121]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-10.35.51:975][121]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6957.828125, Update Interval: 345.387726
+[2025.01.25-10.36.55:313][682]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-10.36.55:321][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-10.36.55:352][682]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_MainMenu
+[2025.01.25-10.36.55:354][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001706s)
+[2025.01.25-10.36.55:354][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/MainMenu.MainMenu to /Game/TopDown/Maps/UEDPIE_0_MainMenu.MainMenu (0.001775s)
+[2025.01.25-10.36.55:426][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.01.25-10.36.55:433][682]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenu
+[2025.01.25-10.36.55:435][682]LogPlayLevel: PIE: World Init took: (0.001951s)
+[2025.01.25-10.36.55:436][682]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-10.36.55:436][682]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-10.36.55:436][682]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-10.36.55:436][682]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-10.36.55:436][682]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-10.36.55:436][682]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-10.36.55:438][682]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-10.36.55:465][682]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (High Definition Audio Device)
+[2025.01.25-10.36.55:466][682]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-10.36.55:466][682]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-10.36.55:466][682]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-10.36.55:466][682]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.01.25-10.36.55:466][682]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.01.25-10.36.55:469][682]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.01.25-10.36.55:469][682]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.01.25-10.36.55:469][682]LogInit: FAudioDevice initialized with ID 13.
+[2025.01.25-10.36.55:469][682]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2025.01.25-10.36.55:469][682]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.01.25-10.36.55:472][682]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.01.25-10.36.55:472][682]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.01.25-11.36.55
+[2025.01.25-10.36.55:473][682]LogWorld: Bringing up level for play took: 0.000445
+[2025.01.25-10.36.55:475][682]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.01.25-10.36.55:478][682]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.01.25-10.36.55:478][682]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.01.25-10.36.55:480][682]PIE: Server logged in
+[2025.01.25-10.36.55:481][682]PIE: Play in editor total start time 0,159 seconds.
+[2025.01.25-10.37.01:028][154]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Maps/TopDownMap1"
+[2025.01.25-10.37.01:028][154]LogNet: Browse: /Game/TopDown/Maps/TopDownMap1
+[2025.01.25-10.37.01:028][154]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap1
+[2025.01.25-10.37.01:029][154]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_MainMenu
+[2025.01.25-10.37.01:030][154]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.37.01:030][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.01:113][154]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.37.01:115][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.01.25-10.37.01:120][154]LogStreaming: Display: FlushAsyncLoading(799): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.37.01:158][154]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownMap1'.
+[2025.01.25-10.37.01:158][154]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.37.01:160][154]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.25-10.37.01:160][154]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.37.01:160][154]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.01.25-10.37.01:160][154]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.25-10.37.01:164][154]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap1' started...
+[2025.01.25-10.37.01:168][154]LogStreaming: Display: FGlobalImportStore:AddPackageRef: Dropping stale reference to package /Game/TopDown/Maps/TopDownMap1 (0x11E02D52F71D19EF) that has been renamed to /Game/TopDown/Maps/UEDPIE_0_TopDownMap1 (0xC940A3CF533F258B)
+[2025.01.25-10.37.01:189][154]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap1' took 24.024 ms (total: 52.550 ms)
+[2025.01.25-10.37.01:191][154]LogWorldPartition: Display: WorldPartition initialize took 31.859 ms (total: 482.992 ms)
+[2025.01.25-10.37.01:191][154]LogPlayLevel: PIE: World Init took: (0.033795s)
+[2025.01.25-10.37.01:191][154]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.01.25-10.37.01:195][154]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1 up for play (max tick rate 0) at 2025.01.25-11.37.01
+[2025.01.25-10.37.01:196][154]LogWorld: Bringing up level for play took: 0.004391
+[2025.01.25-10.37.01:198][154]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.01.25-10.37.01:198][154]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.01.25-10.37.01:202][154]LogLoad: Took 0.172952 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap1)
+[2025.01.25-10.37.01:202][154]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/Maps/TopDownMap1
+[2025.01.25-10.37.01:677][185]LogBlueprintUserMessages: [BP_NPC_C_0] Ready to die
+[2025.01.25-10.37.04:674][392]LogBlueprintUserMessages: [Manager_C_UAID_244BFE4A5D29D14502_1900454245] Game Over
+[2025.01.25-10.37.05:499][450]LogBlueprintUserMessages: [BP_NPC_C_1] Ready to die
+[2025.01.25-10.37.12:342][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.37.12:343][953]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap1
+[2025.01.25-10.37.12:343][953]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.37.12:345][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.12:345][953]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1
+[2025.01.25-10.37.12:349][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-10.37.12:359][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.12:421][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.37.12:421][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.01.25-10.37.12:421][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.01.25-10.37.12:424][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.01.25-10.37.12:436][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.01.25-10.37.12:489][954]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.01.25-10.37.23:108][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.01.25-10.37.25:343][863]LogSlate: Window 'Save Content' being destroyed
+[2025.01.25-10.37.25:358][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-10.37.25:402][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/MainMenu" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-10.37.25:484][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.01.25-10.37.25:495][863]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/MainMenu
+[2025.01.25-10.37.25:495][863]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/MainMenu375628EA4CCFFEB49FE25F984E15B5D6.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/MainMenu.umap'
+[2025.01.25-10.37.25:504][863]LogFileHelpers: Saving map 'MainMenu' took 0.102
+[2025.01.25-10.37.25:504][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownGameMode] ([2] browsable assets)...
+[2025.01.25-10.37.25:504][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownGameMode]
+[2025.01.25-10.37.25:504][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_TopDownGameMode" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset" SILENT=true
+[2025.01.25-10.37.25:507][863]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownGameMode
+[2025.01.25-10.37.25:508][863]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_TopDownGameMode7E58D906452C9C6F3D55159CC476E84A.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset'
+[2025.01.25-10.37.25:564][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 206.455 ms (total: 2.49 sec)
+[2025.01.25-10.37.25:564][863]LogStreaming: Display: FlushAsyncLoading(848): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-10.37.25:600][863]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.37.25:601][863]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-10.37.25:601][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.37.25:601][863]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-10.37.25:636][863]LogWorldPartition: Display: WorldPartition initialize took 34.729 ms (total: 517.721 ms)
+[2025.01.25-10.37.25:643][863]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.37.25:644][863]Cmd: MAP LOAD FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-10.37.25:705][863]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.37.25:705][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.25:764][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-10.37.25:768][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2025.01.25-10.37.25:775][863]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.37.25:776][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.25:776][863]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1
+[2025.01.25-10.37.25:842][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.01.25-10.37.25:909][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.01.25-10.37.25:948][863]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap1'.
+[2025.01.25-10.37.25:948][863]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.37.25:951][863]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.01.25-10.37.25:951][863]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.37.25:951][863]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/TopDownMap1.TopDownMap1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-10.37.25:991][863]LogWorldPartition: Display: WorldPartition initialize took 40.626 ms (total: 558.347 ms)
+[2025.01.25-10.37.26:039][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-10.37.26:041][863]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2025.01.25-10.37.26:041][863]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2025.01.25-10.37.26:110][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.01.25-10.37.26:121][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-10.37.26:122][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,142ms to complete.
+[2025.01.25-10.37.26:188][863]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.25-10.37.26:188][863]LogContentValidation: Enabled validators:
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-10.37.26:188][863]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-10.37.26:189][863]AssetCheck: /Game/TopDown/Blueprints/BP_TopDownGameMode Validating asset
+[2025.01.25-10.37.26:277][864]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.24s
+[2025.01.25-10.37.28:084][968]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-10.37.28:091][968]LogContentBundle: [TopDownMap1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.01.25-10.37.28:091][968]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap1' started...
+[2025.01.25-10.37.28:093][968]LogWorldPartition: Display: GenerateStreaming for 'TopDownMap1' took 2.224 ms (total: 54.775 ms)
+[2025.01.25-10.37.28:094][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-10.37.28:094][968]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap1
+[2025.01.25-10.37.28:102][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006999s)
+[2025.01.25-10.37.28:102][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap1.TopDownMap1 to /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1 (0.007042s)
+[2025.01.25-10.37.28:161][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.01.25-10.37.28:166][968]LogChaosDD: Creating Chaos Debug Draw Scene for world TopDownMap1
+[2025.01.25-10.37.28:169][968]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.01.25-10.37.28:169][968]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.01.25-10.37.28:169][968]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.01.25-10.37.28:169][968]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.01.25-10.37.28:171][968]LogWorldPartition: Display: WorldPartition initialize took 2.731 ms (total: 561.078 ms)
+[2025.01.25-10.37.28:171][968]LogPlayLevel: PIE: World Init took: (0.005387s)
+[2025.01.25-10.37.28:172][968]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-10.37.28:173][968]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-10.37.28:173][968]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-10.37.28:173][968]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-10.37.28:173][968]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-10.37.28:173][968]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-10.37.28:175][968]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-10.37.28:202][968]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (High Definition Audio Device)
+[2025.01.25-10.37.28:203][968]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-10.37.28:203][968]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-10.37.28:203][968]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-10.37.28:203][968]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.01.25-10.37.28:203][968]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.01.25-10.37.28:206][968]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.01.25-10.37.28:206][968]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.01.25-10.37.28:206][968]LogInit: FAudioDevice initialized with ID 14.
+[2025.01.25-10.37.28:206][968]LogAudio: Display: Audio Device (ID: 14) registered with world 'TopDownMap1'.
+[2025.01.25-10.37.28:206][968]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.01.25-10.37.28:209][968]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.01.25-10.37.28:211][968]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1 up for play (max tick rate 0) at 2025.01.25-11.37.28
+[2025.01.25-10.37.28:212][968]LogWorld: Bringing up level for play took: 0.002623
+[2025.01.25-10.37.28:215][968]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.01.25-10.37.28:216][968]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.01.25-10.37.28:222][968]PIE: Server logged in
+[2025.01.25-10.37.28:223][968]PIE: Play in editor total start time 0,131 seconds.
+[2025.01.25-10.37.28:730][992]LogBlueprintUserMessages: [BP_NPC_C_0] Ready to die
+[2025.01.25-10.37.30:832][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.37.30:832][135]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap1
+[2025.01.25-10.37.30:832][135]LogWorld: UWorld::CleanupWorld for TopDownMap1, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-10.37.30:834][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.30:834][135]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Maps/UEDPIE_0_TopDownMap1.TopDownMap1
+[2025.01.25-10.37.30:839][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-10.37.30:849][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-10.37.30:912][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-10.37.30:912][135]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.01.25-10.37.30:912][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.01.25-10.37.30:914][135]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.01.25-10.37.30:923][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.01.25-10.37.30:991][136]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.01.25-10.38.20:152][818]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 154...e04
+[2025.01.25-10.38.20:152][818]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.71 RefreshExpires: 1.549e+07
+[2025.01.25-10.38.21:151][821]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 154...e04 Access[Expires: 2025.01.25-12.38.20 Remaining: 7200.86] Refresh[Expires: 2025-07-23T16:34:20.051Z Remaining: 15486960.05] State: Valid
