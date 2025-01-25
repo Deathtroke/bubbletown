@@ -2788,3 +2788,210 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.25-09.27.28:768][987]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2854.795654
 [2025.01.25-09.27.29:768][990]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.01.25-09.27.29:768][990]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2855.461914, Update Interval: 353.473938
+[2025.01.25-09.30.25:122][956]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownGameMode.BP_TopDownGameMode
+[2025.01.25-09.30.25:123][956]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2025.01.25-09.30.33:082][842]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-09.30.33:082][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-09.30.33:220][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.01.25-09.34.23:001][666]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3269.013916
+[2025.01.25-09.34.23:174][680]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-09.34.23:174][680]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3269.174072, Update Interval: 358.079163
+[2025.01.25-09.34.24:657][795]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Targets
+[2025.01.25-09.34.24:814][795]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_Targets.BP_Targets:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDown/Blueprints/NewBlueprint.PackageMetaData'
+[2025.01.25-09.34.24:814][795]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_Targets.BP_Targets_C' ref from Metadata '/Game/TopDown/Blueprints/NewBlueprint.PackageMetaData'
+[2025.01.25-09.34.24:814][795]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_Targets.SKEL_BP_Targets_C' ref from Metadata '/Game/TopDown/Blueprints/NewBlueprint.PackageMetaData'
+[2025.01.25-09.34.24:814][795]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_Targets.SKEL_BP_Targets_C:Init' ref from Metadata '/Game/TopDown/Blueprints/NewBlueprint.PackageMetaData'
+[2025.01.25-09.34.24:814][795]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_Targets.SKEL_BP_Targets_C:UserConstructionScript' ref from Metadata '/Game/TopDown/Blueprints/NewBlueprint.PackageMetaData'
+[2025.01.25-09.34.24:835][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-09.34.24:836][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/BP_Targets] ([2] browsable assets)...
+[2025.01.25-09.34.24:836][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_Targets]
+[2025.01.25-09.34.24:836][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_Targets" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_Targets.uasset" SILENT=true
+[2025.01.25-09.34.24:842][795]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_Targets
+[2025.01.25-09.34.24:842][795]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_Targets46BDC4FF4F2F587F4DFA19B42E984A64.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_Targets.uasset'
+[2025.01.25-09.34.24:853][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/NewBlueprint] ([5] browsable assets)...
+[2025.01.25-09.34.24:853][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/NewBlueprint]
+[2025.01.25-09.34.24:853][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/NewBlueprint" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/NewBlueprint.uasset" SILENT=true
+[2025.01.25-09.34.24:854][795]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/NewBlueprint
+[2025.01.25-09.34.24:855][795]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/NewBlueprintA8454BAB49EC8EF950E0419DD823B188.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/NewBlueprint.uasset'
+[2025.01.25-09.34.24:858][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 23.472 ms (total: 763.747 ms)
+[2025.01.25-09.34.24:903][795]LogContentValidation: Display: Starting to validate 4 assets
+[2025.01.25-09.34.24:903][795]LogContentValidation: Enabled validators:
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-09.34.24:903][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-09.34.24:903][795]AssetCheck: /Game/TopDown/Blueprints/BP_Targets Validating asset
+[2025.01.25-09.34.24:903][795]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.34.24:903][795]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.34.24:903][795]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.34.24:914][795]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2025.01.25-09.34.46:901][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-09.34.46:937][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/Manager] ([2] browsable assets)...
+[2025.01.25-09.34.46:937][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Manager]
+[2025.01.25-09.34.46:937][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/Manager" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/Manager.uasset" SILENT=true
+[2025.01.25-09.34.46:954][621]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Manager
+[2025.01.25-09.34.46:955][621]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Manager4BADA5B94F566FEE2D0E008B8CE44BAF.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/Manager.uasset'
+[2025.01.25-09.34.46:967][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.106 ms (total: 829.854 ms)
+[2025.01.25-09.34.47:010][621]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-09.34.47:010][621]LogContentValidation: Enabled validators:
+[2025.01.25-09.34.47:010][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-09.34.47:010][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-09.34.47:010][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-09.34.47:011][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-09.34.47:011][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-09.34.47:011][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-09.34.47:011][621]AssetCheck: /Game/TopDown/Blueprints/Manager Validating asset
+[2025.01.25-09.34.48:604][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.01.25-09.34.51:461][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.01.25-09.35.22:528][356]LogContentBrowser: Attempting asset rename: Manager -> BP_GameManager
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.BP_GameManager_C' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.BP_GameManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:UserConstructionScript' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:EndGame' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:InitGameState' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:AddAliveEntities' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:SubtractAliveEntities' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:StartRound' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:662][356]LogMetaData: Removing '/Game/TopDown/Blueprints/BP_GameManager.SKEL_BP_GameManager_C:ActivateTargets' ref from Metadata '/Game/TopDown/Blueprints/Manager.PackageMetaData'
+[2025.01.25-09.35.22:681][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-09.35.22:681][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.25-09.35.22:681][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_GameManager]
+[2025.01.25-09.35.22:681][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_GameManager" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.25-09.35.22:698][356]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_GameManager
+[2025.01.25-09.35.22:698][356]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_GameManagerEBD307154D4D7B59913EB5BC2A31C366.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_GameManager.uasset'
+[2025.01.25-09.35.22:706][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/Manager] ([5] browsable assets)...
+[2025.01.25-09.35.22:706][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Manager]
+[2025.01.25-09.35.22:706][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/Manager" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/Manager.uasset" SILENT=true
+[2025.01.25-09.35.22:707][356]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Manager
+[2025.01.25-09.35.22:707][356]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/ManagerE1BF24674E55790B4B6FAAB04C438FE4.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/Manager.uasset'
+[2025.01.25-09.35.22:710][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 29.196 ms (total: 859.050 ms)
+[2025.01.25-09.35.22:756][356]LogContentValidation: Display: Starting to validate 4 assets
+[2025.01.25-09.35.22:757][356]LogContentValidation: Enabled validators:
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-09.35.22:757][356]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-09.35.22:757][356]AssetCheck: /Game/TopDown/Blueprints/BP_GameManager Validating asset
+[2025.01.25-09.35.22:757][356]AssetCheck: /Game/TopDown/Blueprints/Manager Validating asset
+[2025.01.25-09.35.22:757][356]AssetCheck: /Game/TopDown/Blueprints/Manager Validating asset
+[2025.01.25-09.35.22:757][356]AssetCheck: /Game/TopDown/Blueprints/Manager Validating asset
+[2025.01.25-09.35.44:149][874]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-09.35.44:162][874]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-09.35.44:186][875]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-09.35.57:514][927]LogContentBrowser: Attempting asset rename: NewFolder -> EnemieBehaviour
+[2025.01.25-09.35.57:515][927]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.BP_NPC_C' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.SKEL_BP_NPC_C' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.SKEL_BP_NPC_C:UserConstructionScript' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.SKEL_BP_NPC_C:Killed' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.BP_NPC_C:OnFail_04B3B41B4D21D40B19698CB1F956CE44' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.BP_NPC_C:OnSuccess_04B3B41B4D21D40B19698CB1F956CE44' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.SKEL_BP_NPC_C:StartMoving' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:139][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.SKEL_BP_NPC_C:FuckingDie' ref from Metadata '/Game/TopDown/Blueprints/BP_NPC.PackageMetaData'
+[2025.01.25-09.36.06:154][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.BP_NPCSpawner:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDown/Blueprints/BP_NPCSpawner.PackageMetaData'
+[2025.01.25-09.36.06:154][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.BP_NPCSpawner_C' ref from Metadata '/Game/TopDown/Blueprints/BP_NPCSpawner.PackageMetaData'
+[2025.01.25-09.36.06:154][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.SKEL_BP_NPCSpawner_C:UserConstructionScript' ref from Metadata '/Game/TopDown/Blueprints/BP_NPCSpawner.PackageMetaData'
+[2025.01.25-09.36.06:154][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.SKEL_BP_NPCSpawner_C' ref from Metadata '/Game/TopDown/Blueprints/BP_NPCSpawner.PackageMetaData'
+[2025.01.25-09.36.06:173][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.BP_Targets_C' ref from Metadata '/Game/TopDown/Blueprints/BP_Targets.PackageMetaData'
+[2025.01.25-09.36.06:173][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.SKEL_BP_Targets_C' ref from Metadata '/Game/TopDown/Blueprints/BP_Targets.PackageMetaData'
+[2025.01.25-09.36.06:173][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.BP_Targets:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDown/Blueprints/BP_Targets.PackageMetaData'
+[2025.01.25-09.36.06:173][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.SKEL_BP_Targets_C:Init' ref from Metadata '/Game/TopDown/Blueprints/BP_Targets.PackageMetaData'
+[2025.01.25-09.36.06:173][463]LogMetaData: Removing '/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.SKEL_BP_Targets_C:UserConstructionScript' ref from Metadata '/Game/TopDown/Blueprints/BP_Targets.PackageMetaData'
+[2025.01.25-09.36.06:190][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-09.36.06:191][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/TempPlayer] ([2] browsable assets)...
+[2025.01.25-09.36.06:191][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/TempPlayer]
+[2025.01.25-09.36.06:191][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/TempPlayer" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/TempPlayer.uasset" SILENT=true
+[2025.01.25-09.36.06:195][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/TempPlayer
+[2025.01.25-09.36.06:195][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TempPlayerC279A0B14A43D035E06CF8A724059138.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/TempPlayer.uasset'
+[2025.01.25-09.36.06:196][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/NewBlueprint] ([3] browsable assets)...
+[2025.01.25-09.36.06:196][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/NewBlueprint]
+[2025.01.25-09.36.06:196][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/NewBlueprint" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/NewBlueprint.uasset" SILENT=true
+[2025.01.25-09.36.06:197][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/NewBlueprint
+[2025.01.25-09.36.06:197][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/NewBlueprintB58028D94DA9725423D59CA43049DDF3.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/NewBlueprint.uasset'
+[2025.01.25-09.36.06:198][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_GameManager] ([2] browsable assets)...
+[2025.01.25-09.36.06:198][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_GameManager]
+[2025.01.25-09.36.06:198][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_GameManager" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_GameManager.uasset" SILENT=true
+[2025.01.25-09.36.06:216][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_GameManager
+[2025.01.25-09.36.06:216][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_GameManager0136E14E4CDFBA7C3A497C99828C3018.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_GameManager.uasset'
+[2025.01.25-09.36.06:217][463]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC] ([2] browsable assets)...
+[2025.01.25-09.36.06:218][463]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2025.01.25-09.36.06:276][463]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.BP_NPC_C]
+[2025.01.25-09.36.06:282][463]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC.BP_NPC]
+[2025.01.25-09.36.06:282][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC]
+[2025.01.25-09.36.06:282][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_NPC.uasset" SILENT=true
+[2025.01.25-09.36.06:296][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC
+[2025.01.25-09.36.06:296][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_NPC91B0AB784041DE330A5331B3A93DDF99.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_NPC.uasset'
+[2025.01.25-09.36.06:304][463]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner] ([2] browsable assets)...
+[2025.01.25-09.36.06:304][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner]
+[2025.01.25-09.36.06:304][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.uasset" SILENT=true
+[2025.01.25-09.36.06:307][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner
+[2025.01.25-09.36.06:307][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_NPCSpawner30FE07F74D0140FB138105980794751B.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner.uasset'
+[2025.01.25-09.36.06:320][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_NPCSpawner] ([5] browsable assets)...
+[2025.01.25-09.36.06:320][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_NPCSpawner]
+[2025.01.25-09.36.06:320][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/BP_NPCSpawner" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_NPCSpawner.uasset" SILENT=true
+[2025.01.25-09.36.06:321][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_NPCSpawner
+[2025.01.25-09.36.06:321][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_NPCSpawner3274E01540549F52FB3B3CAE306E31B8.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/BP_NPCSpawner.uasset'
+[2025.01.25-09.36.06:325][463]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets] ([2] browsable assets)...
+[2025.01.25-09.36.06:334][463]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets.BP_Targets]
+[2025.01.25-09.36.06:334][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets]
+[2025.01.25-09.36.06:334][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_Targets.uasset" SILENT=true
+[2025.01.25-09.36.06:340][463]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets
+[2025.01.25-09.36.06:341][463]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/BP_Targets5DAB3012462C87A8E49379B9409AEC4C.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Blueprints/EnemieBehaviour/BP_Targets.uasset'
+[2025.01.25-09.36.06:347][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.637 ms (total: 1.01 sec)
+[2025.01.25-09.36.06:519][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.01.25-09.36.06:577][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.01.25-09.36.06:634][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.01.25-09.36.06:666][463]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.25-09.36.06:666][463]LogContentValidation: Display: Starting to validate 11 assets
+[2025.01.25-09.36.06:666][463]LogContentValidation: Enabled validators:
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-09.36.06:667][463]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/TempPlayer Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/NewBlueprint Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/BP_GameManager Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPC Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/EnemieBehaviour/BP_NPCSpawner Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/BP_NPCSpawner Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/BP_NPCSpawner Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/BP_NPCSpawner Validating asset
+[2025.01.25-09.36.06:667][463]AssetCheck: /Game/TopDown/Blueprints/EnemieBehaviour/BP_Targets Validating asset
+[2025.01.25-09.36.15:036][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-09.36.15:126][ 89]LogWorldPartition: Actor /Game/TopDown/Maps/TopDownMap1.TopDownMap1:PersistentLevel.PlayerStart_0 is unreachable without properly detaching object /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/NA/XGRFUZPMW9CHRH6O3L1XFZ.PackageMetaData in its package
+[2025.01.25-09.36.15:128][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.01.25-09.36.15:178][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.25-09.36.15:238][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.01.25-09.36.15:241][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDown/Maps/TopDownMap1" FILE="D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-09.36.15:316][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.01.25-09.36.15:326][ 89]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TopDownMap1
+[2025.01.25-09.36.15:326][ 89]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/TopDownMap15C507E9443812F25D409328219B9CB9D.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/TopDown/Maps/TopDownMap1.umap'
+[2025.01.25-09.36.15:335][ 89]LogFileHelpers: Saving map 'TopDownMap1' took 0.094
+[2025.01.25-09.36.15:336][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/5/RI/SA7XCOEUP73R0XA0XCCNK4
+[2025.01.25-09.36.15:337][ 89]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/SA7XCOEUP73R0XA0XCCNK41CA5791F480292722206709CCCCAD3DA.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/5/RI/SA7XCOEUP73R0XA0XCCNK4.uasset'
+[2025.01.25-09.36.15:341][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/7/EG/Q29N0E8IGKXP67TMTEX8ZC
+[2025.01.25-09.36.15:341][ 89]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/Q29N0E8IGKXP67TMTEX8ZC72DDFB9644246FA46779429002F09BA6.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/7/EG/Q29N0E8IGKXP67TMTEX8ZC.uasset'
+[2025.01.25-09.36.15:345][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/C/GF/7RCBRLTYW5HL4154LCY9BT
+[2025.01.25-09.36.15:346][ 89]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/7RCBRLTYW5HL4154LCY9BTAEED9FCE48E0C8EBC9AFABACE6F25C58.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/C/GF/7RCBRLTYW5HL4154LCY9BT.uasset'
+[2025.01.25-09.36.15:348][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap1/4/6I/O3F60YG6SL1U8D4CE38FVH
+[2025.01.25-09.36.15:348][ 89]LogSavePackage: Moving 'D:/Documents/bubbletown/bubbletown/Saved/O3F60YG6SL1U8D4CE38FVHEF00510B4483AF7279C56891CAB6F8DF.tmp' to 'D:/Documents/bubbletown/bubbletown/Content/__ExternalActors__/TopDown/Maps/TopDownMap1/4/6I/O3F60YG6SL1U8D4CE38FVH.uasset'
+[2025.01.25-09.36.15:361][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 325.375 ms (total: 1.34 sec)
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: Display: Starting to validate 5 assets
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: Enabled validators:
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-09.36.15:396][ 89]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-09.36.15:396][ 89]AssetCheck: /Game/TopDown/Maps/TopDownMap1 Validating asset
+[2025.01.25-09.36.15:464][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
