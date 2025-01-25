@@ -1720,3 +1720,63 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.25-12.19.37:817][243]AssetCheck: /Game/Objects/Enemies/T-Pose Validating asset
 [2025.01.25-12.19.37:817][243]AssetCheck: /Game/Objects/Enemies/T-Pose_PhysicsAsset Validating asset
 [2025.01.25-12.19.37:818][243]AssetCheck: /Game/Objects/Enemies/T-Pose_Skeleton Validating asset
+[2025.01.25-12.24.40:564][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 720.499207
+[2025.01.25-12.24.41:564][414]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-12.24.41:564][414]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 721.165649, Update Interval: 308.241821
+[2025.01.25-12.29.57:284][361]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1037.220337
+[2025.01.25-12.29.58:284][364]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-12.29.58:284][364]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1037.886963, Update Interval: 349.595642
+[2025.01.25-12.36.01:716][454]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1401.653687
+[2025.01.25-12.36.02:715][458]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-12.36.02:715][458]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1402.318359, Update Interval: 345.287018
+[2025.01.25-12.40.56:050][690]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Objects/Enemies/T-Pose_PhysicsAsset
+[2025.01.25-12.40.56:064][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.01.25-12.40.56:066][690]LogStreaming: Display: FlushAsyncLoading(419): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-12.40.56:086][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.01.25-12.41.16:888][524]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Objects/Enemies/T-Pose
+[2025.01.25-12.41.16:903][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.01.25-12.41.16:905][524]LogStreaming: Display: FlushAsyncLoading(420): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-12.41.16:908][524]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'T-Pose:InterchangeAssetImportData_0.InterchangeBaseNodeContainer_0' in the new package '/Game/Objects/Enemies/T-Pose'. Any existing references to this object will be nulled out.
+[2025.01.25-12.41.16:908][524]LogUObjectGlobals: Warning: ReloadPackage failed to find a replacement object for 'T-Pose:InterchangeAssetImportData_0.InterchangeGenericAssetsPipeline_0' in the new package '/Game/Objects/Enemies/T-Pose'. Any existing references to this object will be nulled out.
+[2025.01.25-12.41.16:934][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.01.25-12.41.27:820][231]LogInterchangeEngine: [Pending] Importing
+[2025.01.25-12.41.27:820][231]LogInterchangeEngine: Display: Interchange start importing source [G:/BubbleTown/T-Pose.fbx]
+[2025.01.25-12.41.28:013][231]LogSkeletalMesh: Building Skeletal Mesh T-Pose...
+[2025.01.25-12.41.28:078][231]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Objects/Enemies/T-Pose.T-Pose
+[2025.01.25-12.41.28:085][231]LogInterchangeEngine: Display: Interchange import completed [G:/BubbleTown/T-Pose.fbx]
+[2025.01.25-12.41.28:086][231]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.01.25-12.41.28:086][231]LogInterchangeEngine: [Success] Import Done
+[2025.01.25-12.41.36:051][787]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Objects/Enemies/T-Pose_PhysicsAsset.T-Pose_PhysicsAsset
+[2025.01.25-12.41.36:088][787]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.01.25-12.41.36:096][787]LogStreaming: Display: FlushAsyncLoading(421): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-12.41.36:141][787]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.01.25-12.41.37:097][787]LogSlate: Took 0.009601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.01.25-12.41.41:617][980]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.25-12.42.12:845][619]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1772.781372
+[2025.01.25-12.42.13:043][630]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-12.42.13:043][630]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1772.961182, Update Interval: 315.892212
+[2025.01.25-12.42.32:021][667]LogSlate: Window 'T-Pose_PhysicsAsset' being destroyed
+[2025.01.25-12.42.32:057][667]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-12.42.32:057][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-12.42.32:147][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.01.25-12.42.34:214][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.01.25-12.42.35:448][837]LogSlate: Window 'Save Content' being destroyed
+[2025.01.25-12.42.35:467][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-12.42.35:514][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Enemies/T-Pose] ([1] browsable assets)...
+[2025.01.25-12.42.35:575][837]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Objects/Enemies/T-Pose.T-Pose]
+[2025.01.25-12.42.35:575][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Enemies/T-Pose]
+[2025.01.25-12.42.35:575][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Enemies/T-Pose" FILE="G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Enemies/T-Pose.uasset" SILENT=true
+[2025.01.25-12.42.35:585][837]LogSavePackage: Moving output files for package: /Game/Objects/Enemies/T-Pose
+[2025.01.25-12.42.35:585][837]LogSavePackage: Moving 'G:/BubbleTown/bubbletown/bubbletown/Saved/T-PoseA2C6DE5A415F488C016FD999CEE70BEC.tmp' to 'G:/BubbleTown/bubbletown/bubbletown/Content/Objects/Enemies/T-Pose.uasset'
+[2025.01.25-12.42.35:600][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.014 ms (total: 382.590 ms)
+[2025.01.25-12.42.35:648][837]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-12.42.35:648][837]LogContentValidation: Enabled validators:
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-12.42.35:648][837]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-12.42.35:648][837]AssetCheck: /Game/Objects/Enemies/T-Pose Validating asset
